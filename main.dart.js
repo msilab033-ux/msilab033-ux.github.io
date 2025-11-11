@@ -319,7 +319,7 @@ case 2:s=A.b([r],t.s)
 break
 default:s=null}return s},
 ar0(){var s=A.dd().b,r=s==null?null:s.canvasKitVariant
-s=A.atc(A.alY(B.CD,r==null?"auto":r))
+s=A.atc(A.alY(B.CC,r==null?"auto":r))
 return new A.aj(s,new A.a7C(),A.W(s).h("aj<1,A>"))},
 asy(a,b){return b+a},
 Ms(){var s=0,r=A.T(t.m),q,p,o,n
@@ -15747,7 +15747,7 @@ r.toString
 A.hS(r)
 q=a.i(0,"swipeEdge")
 q.toString
-return new A.CY(s,r,B.Cx[A.fj(q)])},
+return new A.CY(s,r,B.Cw[A.fj(q)])},
 vw:function vw(a,b){this.a=a
 this.b=b},
 CY:function CY(a,b,c){this.a=a
@@ -16986,7 +16986,7 @@ if(a.as!==q)return q?-1:1
 return 0},
 alQ(a,b){var s=A.W(b).h("aj<1,cu>")
 s=A.V(new A.aj(b,new A.PH(),s),s.h("aA.E"))
-return A.alp(!0,s,a,B.CW,!0,B.zU,null)},
+return A.alp(!0,s,a,B.CV,!0,B.zU,null)},
 alO(a){a.bv()
 a.aP(A.ahf())},
 rC(a){var s=a.a,r=s instanceof A.nA?s:null
@@ -22022,7 +22022,7 @@ j.push(h)}a9.fontVariations=j}return $.bl.bg().TextStyle(a9)},
 $S:71}
 A.NX.prototype={
 Ah(a,b,c,d){var s,r,q,p
-if(a<0||b<0)return B.CT
+if(a<0||b<0)return B.CS
 s=this.a
 s===$&&A.a()
 s=s.a
@@ -23313,7 +23313,7 @@ if(f.b){q=t.f
 e=q.a(q.a(B.b3.eb(a1)).i(0,"data"))
 d=A.c7(e.i(0,"message"))
 if(d!=null&&d.length!==0){c=A.BX(e,"assertiveness")
-f.a.Hf(d,B.Cp[c==null?0:c])}}b.d_(a2,B.b3.b6(!0))
+f.a.Hf(d,B.Co[c==null?0:c])}}b.d_(a2,B.b3.b6(!0))
 return
 case"flutter/navigation":q=t.j8
 if(q.a(b.gbI().b.i(0,0))!=null)q.a(b.gbI().b.i(0,0)).yi(a1).bj(new A.Q3(b,a2),t.P)
@@ -25420,7 +25420,7 @@ SK(){var s=this,r=s.r
 if(r==null){r=s.r=new A.zB(s.c)
 r.d=new A.Qe(s)}return r},
 zD(a){var s,r,q,p,o,n,m=this
-if(B.b.p(B.Db,a.type)){s=m.SK()
+if(B.b.p(B.Da,a.type)){s=m.SK()
 s.toString
 r=m.c.$0()
 q=r.b
@@ -25433,7 +25433,7 @@ if(m.f!==B.kI){m.f=B.kI
 m.Ev()}}return m.d.a.Md(a)},
 Ev(){var s,r
 for(s=this.w,r=0;r<s.length;++r)s[r].$1(this.f)},
-Ma(a){if(B.b.p(B.CJ,a))return this.f===B.e1
+Ma(a){if(B.b.p(B.CI,a))return this.f===B.e1
 return!1}}
 A.Qf.prototype={
 $0(){return new A.h9(Date.now(),0,!1)},
@@ -26851,7 +26851,7 @@ m=A.q1(s.i(0,"fontWeightIndex"))
 l=m!=null?A.ata(m):"normal"
 r=A.abc(s.i(0,"fontSize"))
 if(r==null)r=null
-p=new A.a0y(new A.PD(r,l,A.c7(s.i(0,"fontFamily")),B.Cm[o],B.hC[n]))
+p=new A.a0y(new A.PD(r,l,A.c7(s.i(0,"fontFamily")),B.Cl[o],B.hC[n]))
 break
 case"TextInput.clearClient":p=B.y6
 break
@@ -30618,7 +30618,7 @@ if(o>0)return s
 return null}}
 A.a21.prototype={
 E(a,b){this.CH(b,0,b.length,!1)},
-aW(){this.CH(B.CM,0,0,!0)}}
+aW(){this.CH(B.CL,0,0,!0)}}
 A.a7f.prototype={
 CH(a,b,c,d){var s=this.b.a0d(a,b,c,d)
 if(s!=null)this.a.lu(s,0,s.length,d)}}
@@ -32215,7 +32215,7 @@ return A.fr(A.fC(!1,A.cc(16),!0,new A.bL(B.b8,A.jj(A.b([A.jt(this.jM(b),B.l,r,r)
 jI(a){var s=null,r=A.cc(16),q=A.a1(100,B.l.n()>>>16&255,B.l.n()>>>8&255,B.l.n()&255)
 return A.fr(A.fC(!1,A.cc(16),!0,new A.bL(B.dZ,A.fa(A.b([B.eb,B.f_,A.cz("\u0643\u0644 \u0627\u0644\u0623\u0633\u0626\u0644\u0629",s,s,A.cq(s,s,A.a1(242,B.f.n()>>>16&255,B.f.n()>>>8&255,B.f.n()&255),s,s,s,s,s,s,s,s,20,s,s,B.aj,s,s,!0,s,s,s,s,s,s,s,s),s)],t.p),B.O,s,B.d8,B.aC),s),s,!0,s,s,s,s,s,s,s,s,new A.Wm(this,a),s,s,s,s),B.as,4,new A.bu(r,new A.be(q,1,B.A,-1)))},
 N(a){var s,r=null,q=A.qz(r,B.zY),p=A.oc(0,new A.hf(22,r)),o=t.p,n=A.b([],o)
-for(s=0;s<7;++s)n.push(this.jJ(a,B.Cn[s]))
+for(s=0;s<7;++s)n.push(this.jJ(a,B.Cm[s]))
 n.push(this.jI(a))
 return A.uQ(q,A.fP(B.aT,A.b([p,new A.bL(B.b8,A.hc(A.Rr(0.9,n,2,16,16),B.I),r)],o),B.M,B.aR),r)}}
 A.Wp.prototype={
@@ -32252,7 +32252,7 @@ return A.fr(A.fC(!1,A.cc(16),!0,new A.bL(B.b8,A.jj(A.b([A.jt(this.jM(b),B.l,r,r)
 jI(a){var s=null,r=A.cc(16),q=A.a1(100,B.l.n()>>>16&255,B.l.n()>>>8&255,B.l.n()&255)
 return A.fr(A.fC(!1,A.cc(16),!0,new A.bL(B.dZ,A.fa(A.b([B.eb,B.f_,A.cz("\u0643\u0644 \u0627\u0644\u0623\u0633\u0626\u0644\u0629",s,s,A.cq(s,s,A.a1(242,B.f.n()>>>16&255,B.f.n()>>>8&255,B.f.n()&255),s,s,s,s,s,s,s,s,20,s,s,B.aj,s,s,!0,s,s,s,s,s,s,s,s),s)],t.p),B.O,s,B.d8,B.aC),s),s,!0,s,s,s,s,s,s,s,s,new A.N9(this,a),s,s,s,s),B.as,4,new A.bu(r,new A.be(q,1,B.A,-1)))},
 N(a){var s,r=null,q=A.qz(r,B.zX),p=A.oc(0,new A.hf(22,r)),o=t.p,n=A.b([],o)
-for(s=0;s<7;++s)n.push(this.jJ(a,B.Cl[s]))
+for(s=0;s<7;++s)n.push(this.jJ(a,B.Db[s]))
 n.push(this.jI(a))
 return A.uQ(q,A.fP(B.aT,A.b([p,new A.bL(B.b8,A.hc(A.Rr(0.9,n,2,16,16),B.I),r)],o),B.M,B.aR),r)}}
 A.Nc.prototype={
@@ -32289,7 +32289,7 @@ return A.fr(A.fC(!1,A.cc(16),!0,new A.bL(B.b8,A.jj(A.b([A.jt(this.jM(b),B.l,r,r)
 jI(a){var s=null,r=A.cc(16),q=A.a1(100,B.l.n()>>>16&255,B.l.n()>>>8&255,B.l.n()&255)
 return A.fr(A.fC(!1,A.cc(16),!0,new A.bL(B.dZ,A.fa(A.b([B.eb,B.f_,A.cz("\u0643\u0644 \u0627\u0644\u0623\u0633\u0626\u0644\u0629",s,s,A.cq(s,s,A.a1(242,B.f.n()>>>16&255,B.f.n()>>>8&255,B.f.n()&255),s,s,s,s,s,s,s,s,20,s,s,B.aj,s,s,!0,s,s,s,s,s,s,s,s),s)],t.p),B.O,s,B.d8,B.aC),s),s,!0,s,s,s,s,s,s,s,s,new A.O8(this,a),s,s,s,s),B.as,4,new A.bu(r,new A.be(q,1,B.A,-1)))},
 N(a){var s,r=null,q=A.qz(r,B.A_),p=A.oc(0,new A.hf(22,r)),o=t.p,n=A.b([],o)
-for(s=0;s<7;++s)n.push(this.jJ(a,B.D7[s]))
+for(s=0;s<7;++s)n.push(this.jJ(a,B.D6[s]))
 n.push(this.jI(a))
 return A.uQ(q,A.fP(B.aT,A.b([p,new A.bL(B.b8,A.hc(A.Rr(0.9,n,2,16,16),B.I),r)],o),B.M,B.aR),r)}}
 A.Ob.prototype={
@@ -32326,7 +32326,7 @@ return A.fr(A.fC(!1,A.cc(16),!0,new A.bL(B.b8,A.jj(A.b([A.jt(this.jM(b),B.l,r,r)
 jI(a){var s=null,r=A.cc(16),q=A.a1(100,B.l.n()>>>16&255,B.l.n()>>>8&255,B.l.n()&255)
 return A.fr(A.fC(!1,A.cc(16),!0,new A.bL(B.dZ,A.fa(A.b([B.eb,B.f_,A.cz("\u0643\u0644 \u0627\u0644\u0623\u0633\u0626\u0644\u0629",s,s,A.cq(s,s,A.a1(242,B.f.n()>>>16&255,B.f.n()>>>8&255,B.f.n()&255),s,s,s,s,s,s,s,s,20,s,s,B.aj,s,s,!0,s,s,s,s,s,s,s,s),s)],t.p),B.O,s,B.d8,B.aC),s),s,!0,s,s,s,s,s,s,s,s,new A.O1(this,a),s,s,s,s),B.as,4,new A.bu(r,new A.be(q,1,B.A,-1)))},
 N(a){var s,r=null,q=A.qz(r,B.zZ),p=A.oc(0,new A.hf(22,r)),o=t.p,n=A.b([],o)
-for(s=0;s<7;++s)n.push(this.jJ(a,B.D2[s]))
+for(s=0;s<7;++s)n.push(this.jJ(a,B.D1[s]))
 n.push(this.jI(a))
 return A.uQ(q,A.fP(B.aT,A.b([p,new A.bL(B.b8,A.hc(A.Rr(0.9,n,2,16,16),B.I),r)],o),B.M,B.aR),r)}}
 A.O4.prototype={
@@ -32490,7 +32490,7 @@ $0(){this.a.e=null},
 $S:0}
 A.ka.prototype={}
 A.wO.prototype={
-N(a){var s=null,r=A.fa(B.D9,B.O,s,B.W,B.aC),q=this.c.length
+N(a){var s=null,r=A.fa(B.D8,B.O,s,B.W,B.aC),q=this.c.length
 return A.hc(A.Ox(A.jj(A.b([r,B.f1,A.Qj(q===0?B.yt:A.amR(new A.a4m(this),q,new A.a4n()))],t.p),B.bv,B.W,B.aC),B.as,s,s,s,B.Am,s),B.I)}}
 A.a4n.prototype={
 $2(a,b){return new A.no(B.k7,null)},
@@ -35662,7 +35662,7 @@ n=o.e
 o=o.cx
 r=q.gV9()
 q.a.toString
-return new A.w8(p,p,p,new A.a4U(),p,p,p,p,p,n,B.ER,p,p,p,B.CX,q.gVg(),o,p,B.KW,s,p,r,p,p,B.kY,!1,!1,p,p,p,new A.ll(q,t.l9))},
+return new A.w8(p,p,p,new A.a4U(),p,p,p,p,p,n,B.ER,p,p,p,B.CW,q.gVg(),o,p,B.KW,s,p,r,p,p,B.kY,!1,!1,p,p,p,new A.ll(q,t.l9))},
 N(a){var s,r=null,q=A.rU(!1,!1,this.QK(a),r,r,r,r,!0,r,r,r,new A.a4V(),r,r)
 this.a.toString
 s=this.d
@@ -35969,7 +35969,7 @@ A.pd.prototype={
 G(){return"_CornerId."+this.b}}
 A.iS.prototype={}
 A.nZ.prototype={
-hW(){var s,r,q=this,p=A.arX(B.CH,new A.Vj(q,q.b.gaS().a6(0,q.a.gaS()))),o=q.a
+hW(){var s,r,q=this,p=A.arX(B.CG,new A.Vj(q,q.b.gaS().a6(0,q.a.gaS()))),o=q.a
 o.toString
 s=p.a
 o=q.l9(o,s)
@@ -39068,7 +39068,7 @@ gmu(){return B.kt},
 HB(a,b,c,d,e,f){return A.alc(a,b,c,d,e,f)}}
 A.CL.prototype={
 Qh(a){var s=t.dM
-s=A.V(new A.aj(B.CG,new A.Wz(a),s),s.h("aA.E"))
+s=A.V(new A.aj(B.CF,new A.Wz(a),s),s.h("aA.E"))
 return s},
 j(a,b){if(b==null)return!1
 if(this===b)return!0
@@ -42315,7 +42315,7 @@ s=p==null?null:A.af0(p)
 if(s==null||r.geS().j(0,B.j))return s
 return new A.lm(s.a.cM(r.geS()),s.b,s.c)},
 xf(){var s,r,q=this.b,p=q.geS()
-if(!isFinite(p.a)||!isFinite(p.b))return B.CV
+if(!isFinite(p.a)||!isFinite(p.b))return B.CU
 s=q.f
 if(s==null){s=q.a.c.xf()
 q.f=s}if(p.j(0,B.j))r=s
@@ -45211,7 +45211,7 @@ q=a.a6(0,s.geS())
 r=r.a
 r===$&&A.a()
 p=r.a.getGlyphPositionAtCoordinate(q.a,q.b)
-o=B.Cy[J.aa(p.affinity.value)]
+o=B.Cx[J.aa(p.affinity.value)]
 return new A.al(J.aa(p.pos),o)},
 iC(a){this.iX(t.k.a(A.y.prototype.gS.call(this)))
 return this.v.b.a.c.iC(a)},
@@ -49422,7 +49422,7 @@ break
 case 1:return A.R(q,r)}})
 return A.S($async$vr,r)},
 Sz(a,b){var s,r,q,p
-if(a===b)return B.CS
+if(a===b)return B.CR
 s=A.b([],t.EQ)
 if(a==null)s.push(b)
 else{r=B.b.kl(B.cV,a)
@@ -50593,7 +50593,7 @@ A.jS.prototype={}
 A.D2.prototype={
 io(a,b){var s,r,q,p,o,n=$.ag.ai$.d.c
 if(n==null||n.e==null)return!1
-for(s=t.v,r=0;r<2;++r){q=B.CK[r]
+for(s=t.v,r=0;r<2;++r){q=B.CJ[r]
 p=n.e
 p.toString
 o=A.a9b(p,q,s)
@@ -50780,7 +50780,7 @@ this.j3()}}
 A.pb.prototype={
 k(a){return"Entry#"+A.bc(this)+"("+this.d.k(0)+")"}}
 A.qp.prototype={
-aj(){return new A.FG(A.av(t.ne),B.CU,null,null)},
+aj(){return new A.FG(A.av(t.ne),B.CT,null,null)},
 a4l(a,b){return A.agZ().$2(a,b)},
 a2A(a,b){return A.ash().$2(a,b)}}
 A.FG.prototype={
@@ -53892,7 +53892,7 @@ j(a,b){var s=this
 if(b==null)return!1
 if(J.K(b)!==A.u(s))return!1
 return b instanceof A.bC&&b.a===s.a&&b.b==s.b&&b.d===s.d&&A.cS(null,null)},
-gA(a){return A.J(this.a,this.b,null,this.d,A.bI(B.CN),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gA(a){return A.J(this.a,this.b,null,this.d,A.bI(B.CM),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 k(a){return"IconData(U+"+B.d.t5(B.i.kE(this.a,16).toUpperCase(),5,"0")+")"}}
 A.lr.prototype={
 bt(a){return!this.w.j(0,a.w)}}
@@ -54434,7 +54434,7 @@ g=s&&d
 b=s?d:b.ch
 if(b==null)b=B.i2
 s=s&&d
-f=new A.tL(a,a1,q,p,m,o,n,a0,g===!0,l,k,h,c,j,i,b,new A.ri(d),B.CQ,s===!0)
+f=new A.tL(a,a1,q,p,m,o,n,a0,g===!0,l,k,h,c,j,i,b,new A.ri(d),B.CP,s===!0)
 if(!f.j(0,e.e))e.ar(new A.a5b(e,f))},
 Ic(){this.nx()},
 Ie(){if(this.d==null)this.nx()},
@@ -54754,7 +54754,7 @@ r.L(0,s.KG(null,l))
 l.a.toString
 q=r.a
 p=0
-for(;!1;++p){o=B.CO[p]
+for(;!1;++p){o=B.CN[p]
 n=l.c
 n.toString
 m=new A.eT(o.xp(n),null,!0,B.iY,B.b4,new A.mI(new ($.MF())(B.b4)),B.b4)
@@ -55107,7 +55107,7 @@ N(a){var s,r,q=this,p=null,o=q.gU5(),n=A.nC(a),m=q.bb$,l=q.d
 l===$&&A.a()
 s=q.a.ay
 if(l.gb0()==null){r=q.gBZ()
-r=J.nO(r.slice(0),A.W(r).c)}else r=B.CP
+r=J.nO(r.slice(0),A.W(r).c)}else r=B.CO
 return new A.lo(p,new A.cN(new A.W8(q,a),A.tz(B.bK,new A.zz(!1,A.a9K(A.rU(!0,p,A.a12(m,new A.o7(r,s,l)),p,p,p,q.y,!1,p,p,p,p,p,!0),n),p),o,q.gVz(),p,p,o),p,t.go),p)}}
 A.W7.prototype={
 $1(a){var s=this.a.c
@@ -60067,7 +60067,7 @@ r.qn()
 return s.aY()},
 l(){var s,r,q,p,o=this
 for(s=o.b,r=s.length,q=o.gvt(),p=0;p<s.length;s.length===r||(0,A.z)(s),++p)s[p].M(q)
-o.b=B.CR
+o.b=B.CQ
 o.y=!1
 o.dD()},
 cs(a,b){return a.j9(b)},
@@ -60871,7 +60871,7 @@ g.p2=A.v(t.qI,q)
 p=g.p1
 s=s.c
 g.p1=A.v(s,q)
-for(o=0;o<4;++o){n=B.CF[o]
+for(o=0;o<4;++o){n=B.CE[o]
 m=f.ZV(n)
 l=m==null?null:m.a
 k=p.i(0,n)
@@ -64709,8 +64709,8 @@ B.bs=new A.fl(1,"resumed")
 B.du=new A.fl(2,"inactive")
 B.dv=new A.fl(3,"hidden")
 B.fs=new A.fl(4,"paused")
-B.u=new A.fm("\u0645\u062d\u0627\u0636\u0631\u0629 1",0,"lec1")
-B.v=new A.fm("\u0645\u062d\u0627\u0636\u0631\u0629 2",1,"lec2")
+B.u=new A.fm("PE & DVT",1,"lec2")
+B.v=new A.fm("Acute Coronary Syndrome",0,"lec1")
 B.ft=new A.qB(0,"polite")
 B.fu=new A.qB(1,"assertive")
 B.K=new A.mZ(0,"up")
@@ -65028,7 +65028,7 @@ B.yg=new A.a17()
 B.Z=new A.a1a()
 B.bF=new A.a1c()
 B.cr=new A.Fj(0,0,0,0)
-B.CQ=A.b(s([]),A.a6("w<aun>"))
+B.CP=A.b(s([]),A.a6("w<aun>"))
 B.Ph=new A.a1g()
 B.aD={}
 B.q_=new A.bo(B.aD,[],t.hD)
@@ -65463,19 +65463,13 @@ B.j_=new A.xK(0,"named")
 B.wC=new A.xK(1,"anonymous")
 B.Cd=A.b(s([B.j_,B.wC]),A.a6("w<xK>"))
 B.kX=A.b(s([0,4,12,1,5,13,3,7,15]),t.t)
-B.wQ=new A.fm("\u0645\u062d\u0627\u0636\u0631\u0629 3",2,"lec3")
-B.wM=new A.fm("\u0645\u062d\u0627\u0636\u0631\u0629 4",3,"lec4")
-B.wO=new A.fm("\u0645\u062d\u0627\u0636\u0631\u0629 5",4,"lec5")
-B.wP=new A.fm("\u0645\u062d\u0627\u0636\u0631\u0629 6",5,"lec6")
-B.wN=new A.fm("\u0645\u062d\u0627\u0636\u0631\u0629 7",6,"lec7")
-B.Cl=A.b(s([B.u,B.v,B.wQ,B.wM,B.wO,B.wP,B.wN]),A.a6("w<fm>"))
 B.dl=new A.iI(0,"left")
 B.iJ=new A.iI(1,"right")
 B.b_=new A.iI(2,"center")
 B.f2=new A.iI(3,"justify")
 B.b0=new A.iI(4,"start")
 B.iK=new A.iI(5,"end")
-B.Cm=A.b(s([B.dl,B.iJ,B.b_,B.f2,B.b0,B.iK]),A.a6("w<iI>"))
+B.Cl=A.b(s([B.dl,B.iJ,B.b_,B.f2,B.b0,B.iK]),A.a6("w<iI>"))
 B.qh=new A.fJ("\u0645\u062d\u0627\u0636\u0631\u0629 1",0,"lec1")
 B.qg=new A.fJ("\u0645\u062d\u0627\u0636\u0631\u0629 2",1,"lec2")
 B.qf=new A.fJ("\u0645\u062d\u0627\u0636\u0631\u0629 3",2,"lec3")
@@ -65483,8 +65477,8 @@ B.FI=new A.fJ("\u0645\u062d\u0627\u0636\u0631\u0629 4",3,"lec4")
 B.FL=new A.fJ("\u0645\u062d\u0627\u0636\u0631\u0629 5",4,"lec5")
 B.FK=new A.fJ("\u0645\u062d\u0627\u0636\u0631\u0629 6",5,"lec6")
 B.FJ=new A.fJ("\u0645\u062d\u0627\u0636\u0631\u0629 7",6,"lec7")
-B.Cn=A.b(s([B.qh,B.qg,B.qf,B.FI,B.FL,B.FK,B.FJ]),A.a6("w<fJ>"))
-B.Cp=A.b(s([B.ft,B.fu]),A.a6("w<qB>"))
+B.Cm=A.b(s([B.qh,B.qg,B.qf,B.FI,B.FL,B.FK,B.FJ]),A.a6("w<fJ>"))
+B.Co=A.b(s([B.ft,B.fu]),A.a6("w<qB>"))
 B.Dc=new A.jH("en","US")
 B.kY=A.b(s([B.Dc]),t.as)
 B.Oq=new A.iT(0,0)
@@ -65496,23 +65490,23 @@ B.Or=new A.iT(12,0.14)
 B.kZ=A.b(s([B.Oq,B.Ov,B.Ot,B.Ou,B.Os,B.Or]),A.a6("w<iT>"))
 B.Jd=new A.vw(0,"left")
 B.Je=new A.vw(1,"right")
-B.Cx=A.b(s([B.Jd,B.Je]),A.a6("w<vw>"))
+B.Cw=A.b(s([B.Jd,B.Je]),A.a6("w<vw>"))
 B.aH=new A.vC(0,"upstream")
 B.o=new A.vC(1,"downstream")
-B.Cy=A.b(s([B.aH,B.o]),A.a6("w<vC>"))
+B.Cx=A.b(s([B.aH,B.o]),A.a6("w<vC>"))
 B.af=new A.vG(1,"ltr")
 B.hC=A.b(s([B.I,B.af]),A.a6("w<vG>"))
 B.yp=new A.n4(0,"auto")
 B.yq=new A.n4(1,"full")
 B.yr=new A.n4(2,"chromium")
-B.CD=A.b(s([B.yp,B.yq,B.yr]),A.a6("w<n4>"))
+B.CC=A.b(s([B.yp,B.yq,B.yr]),A.a6("w<n4>"))
 B.dr=new A.fY(0,"leading")
 B.br=new A.fY(1,"title")
 B.cx=new A.fY(2,"subtitle")
 B.ds=new A.fY(3,"trailing")
-B.CF=A.b(s([B.dr,B.br,B.cx,B.ds]),A.a6("w<fY>"))
+B.CE=A.b(s([B.dr,B.br,B.cx,B.ds]),A.a6("w<fY>"))
 B.aS=new A.dX(1,"fuchsia")
-B.CG=A.b(s([B.ae,B.aS,B.a6,B.aE,B.aF,B.aG]),A.a6("w<dX>"))
+B.CF=A.b(s([B.ae,B.aS,B.a6,B.aE,B.aF,B.aG]),A.a6("w<dX>"))
 B.wn=new A.pd(0,"topLeft")
 B.wq=new A.pd(3,"bottomRight")
 B.Ol=new A.iS(B.wn,B.wq)
@@ -65521,30 +65515,30 @@ B.wo=new A.pd(1,"topRight")
 B.wp=new A.pd(2,"bottomLeft")
 B.Om=new A.iS(B.wo,B.wp)
 B.On=new A.iS(B.wp,B.wo)
-B.CH=A.b(s([B.Ol,B.Oo,B.Om,B.On]),A.a6("w<iS>"))
-B.CJ=A.b(s(["click","scroll"]),t.s)
+B.CG=A.b(s([B.Ol,B.Oo,B.Om,B.On]),A.a6("w<iS>"))
+B.CI=A.b(s(["click","scroll"]),t.s)
 B.xg=new A.mS()
 B.ij=new A.E6(1,"page")
 B.ik=new A.ef(B.E,B.ij)
-B.CK=A.b(s([B.xg,B.ik]),A.a6("w<ax>"))
-B.CS=A.b(s([]),t.EQ)
+B.CJ=A.b(s([B.xg,B.ik]),A.a6("w<ax>"))
+B.CR=A.b(s([]),t.EQ)
 B.l1=A.b(s([]),A.a6("w<au8>"))
-B.CW=A.b(s([]),t.E)
-B.CV=A.b(s([]),t.gw)
-B.CX=A.b(s([]),t.yx)
+B.CV=A.b(s([]),t.E)
+B.CU=A.b(s([]),t.gw)
+B.CW=A.b(s([]),t.yx)
 B.ei=A.b(s([]),t.g)
-B.CP=A.b(s([]),t.tD)
-B.CO=A.b(s([]),A.a6("w<aei<@>>"))
+B.CO=A.b(s([]),t.tD)
+B.CN=A.b(s([]),A.a6("w<aei<@>>"))
 B.hE=A.b(s([]),t.f8)
-B.CR=A.b(s([]),t.E1)
+B.CQ=A.b(s([]),t.E1)
 B.hD=A.b(s([]),t.R)
 B.l_=A.b(s([]),t.s)
 B.ap=A.b(s([]),t.ve)
-B.CT=A.b(s([]),t.px)
-B.CU=A.b(s([]),t.p)
-B.CM=A.b(s([]),t.t)
+B.CS=A.b(s([]),t.px)
+B.CT=A.b(s([]),t.p)
+B.CL=A.b(s([]),t.t)
 B.l0=A.b(s([]),t.zz)
-B.CN=A.b(s([]),t.yH)
+B.CM=A.b(s([]),t.yH)
 B.AI=new A.eZ(0)
 B.AJ=new A.eZ(1)
 B.AK=new A.eZ(2)
@@ -65555,12 +65549,12 @@ B.kG=new A.eZ(8)
 B.l2=A.b(s([B.AI,B.AJ,B.AK,B.D,B.ai,B.kF,B.aj,B.AL,B.kG]),A.a6("w<eZ>"))
 B.yx=new A.fs("\u0645\u062d\u0627\u0636\u0631\u0629 6",5,"lec6")
 B.yy=new A.fs("\u0645\u062d\u0627\u0636\u0631\u0629 7",6,"lec7")
-B.D2=A.b(s([B.jQ,B.jM,B.jO,B.jN,B.jP,B.yx,B.yy]),A.a6("w<fs>"))
+B.D1=A.b(s([B.jQ,B.jM,B.jO,B.jN,B.jP,B.yx,B.yy]),A.a6("w<fs>"))
 B.cV=A.b(s([B.bC,B.bs,B.du,B.dv,B.fs]),t.EQ)
 B.yB=new A.ft("\u0645\u062d\u0627\u0636\u0631\u0629 5",4,"lec5")
 B.yz=new A.ft("\u0645\u062d\u0627\u0636\u0631\u0629 6",5,"lec6")
 B.yA=new A.ft("\u0645\u062d\u0627\u0636\u0631\u0629 7",6,"lec7")
-B.D7=A.b(s([B.jR,B.jU,B.jS,B.jT,B.yB,B.yz,B.yA]),A.a6("w<ft>"))
+B.D6=A.b(s([B.jR,B.jU,B.jS,B.jT,B.yB,B.yz,B.yA]),A.a6("w<ft>"))
 B.cb=new A.eG(0,"controlModifier")
 B.cc=new A.eG(1,"shiftModifier")
 B.cd=new A.eG(2,"altModifier")
@@ -65574,9 +65568,15 @@ B.l3=A.b(s([B.cb,B.cc,B.cd,B.ce,B.hY,B.hZ,B.i_,B.i0,B.q7]),A.a6("w<eG>"))
 B.iG=new A.ei(8,null,null,null)
 B.Lz=new A.n(!0,null,null,null,null,null,16.5,B.aj,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Nf=new A.d1("\u0627\u0644\u0633\u062c\u0644",null,B.Lz,null,null,null,null)
-B.D9=A.b(s([B.kN,B.iG,B.Nf]),t.p)
+B.D8=A.b(s([B.kN,B.iG,B.Nf]),t.p)
 B.hF=A.b(s([!0,!1]),t.sj)
-B.Db=A.b(s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","wheel"]),t.s)
+B.Da=A.b(s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","wheel"]),t.s)
+B.wQ=new A.fm("\u0645\u062d\u0627\u0636\u0631\u0629 3",2,"lec3")
+B.wM=new A.fm("\u0645\u062d\u0627\u0636\u0631\u0629 4",3,"lec4")
+B.wO=new A.fm("\u0645\u062d\u0627\u0636\u0631\u0629 5",4,"lec5")
+B.wP=new A.fm("\u0645\u062d\u0627\u0636\u0631\u0629 6",5,"lec6")
+B.wN=new A.fm("\u0645\u062d\u0627\u0636\u0631\u0629 7",6,"lec7")
+B.Db=A.b(s([B.v,B.u,B.wQ,B.wM,B.wO,B.wP,B.wN]),A.a6("w<fm>"))
 B.k=new A.tC(0,"ignored")
 B.ak=new A.e(4294967304)
 B.cX=new A.e(4294967323)
@@ -66110,57 +66110,57 @@ B.C8=A.b(s([54,null,null,8589935158]),t.Z)
 B.C9=A.b(s([55,null,null,8589935159]),t.Z)
 B.Ca=A.b(s([56,null,null,8589935160]),t.Z)
 B.Cc=A.b(s([57,null,null,8589935161]),t.Z)
-B.Cz=A.b(s([8589934852,8589934852,8589934853,null]),t.Z)
+B.Cy=A.b(s([8589934852,8589934852,8589934853,null]),t.Z)
 B.BN=A.b(s([4294967555,null,4294967555,null]),t.Z)
 B.BO=A.b(s([4294968065,null,null,8589935154]),t.Z)
 B.BP=A.b(s([4294968066,null,null,8589935156]),t.Z)
 B.BQ=A.b(s([4294968067,null,null,8589935158]),t.Z)
 B.BR=A.b(s([4294968068,null,null,8589935160]),t.Z)
 B.BW=A.b(s([4294968321,null,null,8589935157]),t.Z)
-B.CA=A.b(s([8589934848,8589934848,8589934849,null]),t.Z)
+B.Cz=A.b(s([8589934848,8589934848,8589934849,null]),t.Z)
 B.BM=A.b(s([4294967423,null,null,8589935150]),t.Z)
 B.BS=A.b(s([4294968069,null,null,8589935153]),t.Z)
 B.BL=A.b(s([4294967309,null,null,8589935117]),t.Z)
 B.BT=A.b(s([4294968070,null,null,8589935159]),t.Z)
 B.BX=A.b(s([4294968327,null,null,8589935152]),t.Z)
-B.CB=A.b(s([8589934854,8589934854,8589934855,null]),t.Z)
+B.CA=A.b(s([8589934854,8589934854,8589934855,null]),t.Z)
 B.BU=A.b(s([4294968071,null,null,8589935155]),t.Z)
 B.BV=A.b(s([4294968072,null,null,8589935161]),t.Z)
-B.CC=A.b(s([8589934850,8589934850,8589934851,null]),t.Z)
-B.q3=new A.ci(["*",B.BY,"+",B.BZ,"-",B.C_,".",B.C0,"/",B.C1,"0",B.C2,"1",B.C3,"2",B.C4,"3",B.C5,"4",B.C6,"5",B.C7,"6",B.C8,"7",B.C9,"8",B.Ca,"9",B.Cc,"Alt",B.Cz,"AltGraph",B.BN,"ArrowDown",B.BO,"ArrowLeft",B.BP,"ArrowRight",B.BQ,"ArrowUp",B.BR,"Clear",B.BW,"Control",B.CA,"Delete",B.BM,"End",B.BS,"Enter",B.BL,"Home",B.BT,"Insert",B.BX,"Meta",B.CB,"PageDown",B.BU,"PageUp",B.BV,"Shift",B.CC],A.a6("ci<A,O<k?>>"))
+B.CB=A.b(s([8589934850,8589934850,8589934851,null]),t.Z)
+B.q3=new A.ci(["*",B.BY,"+",B.BZ,"-",B.C_,".",B.C0,"/",B.C1,"0",B.C2,"1",B.C3,"2",B.C4,"3",B.C5,"4",B.C6,"5",B.C7,"6",B.C8,"7",B.C9,"8",B.Ca,"9",B.Cc,"Alt",B.Cy,"AltGraph",B.BN,"ArrowDown",B.BO,"ArrowLeft",B.BP,"ArrowRight",B.BQ,"ArrowUp",B.BR,"Clear",B.BW,"Control",B.Cz,"Delete",B.BM,"End",B.BS,"Enter",B.BL,"Home",B.BT,"Insert",B.BX,"Meta",B.CA,"PageDown",B.BU,"PageUp",B.BV,"Shift",B.CB],A.a6("ci<A,O<k?>>"))
 B.Cb=A.b(s([B.la,null,null,B.pR]),t.L)
-B.CY=A.b(s([B.pD,null,null,B.pS]),t.L)
-B.Cq=A.b(s([B.pE,null,null,B.pT]),t.L)
-B.CE=A.b(s([B.pF,null,null,B.bN]),t.L)
+B.CX=A.b(s([B.pD,null,null,B.pS]),t.L)
+B.Cp=A.b(s([B.pE,null,null,B.pT]),t.L)
+B.CD=A.b(s([B.pF,null,null,B.bN]),t.L)
 B.BI=A.b(s([B.pG,null,null,B.pU]),t.L)
-B.D5=A.b(s([B.pH,null,null,B.hQ]),t.L)
-B.D4=A.b(s([B.pI,null,null,B.d4]),t.L)
+B.D4=A.b(s([B.pH,null,null,B.hQ]),t.L)
+B.D3=A.b(s([B.pI,null,null,B.d4]),t.L)
 B.Cg=A.b(s([B.pJ,null,null,B.bO]),t.L)
-B.Da=A.b(s([B.pK,null,null,B.d5]),t.L)
-B.D3=A.b(s([B.pL,null,null,B.bP]),t.L)
+B.D9=A.b(s([B.pK,null,null,B.d5]),t.L)
+B.D2=A.b(s([B.pL,null,null,B.bP]),t.L)
 B.Cf=A.b(s([B.pM,null,null,B.hR]),t.L)
 B.BK=A.b(s([B.pN,null,null,B.bQ]),t.L)
-B.Co=A.b(s([B.pO,null,null,B.d6]),t.L)
-B.CZ=A.b(s([B.pP,null,null,B.bR]),t.L)
-B.D_=A.b(s([B.pQ,null,null,B.d7]),t.L)
+B.Cn=A.b(s([B.pO,null,null,B.d6]),t.L)
+B.CY=A.b(s([B.pP,null,null,B.bR]),t.L)
+B.CZ=A.b(s([B.pQ,null,null,B.d7]),t.L)
 B.Ch=A.b(s([B.d2,B.d2,B.ep,null]),t.L)
-B.D6=A.b(s([B.el,null,B.el,null]),t.L)
-B.Cr=A.b(s([B.aX,null,null,B.bO]),t.L)
-B.Cs=A.b(s([B.aO,null,null,B.bP]),t.L)
-B.Ct=A.b(s([B.aP,null,null,B.bQ]),t.L)
-B.D8=A.b(s([B.aY,null,null,B.bR]),t.L)
-B.D0=A.b(s([B.hJ,null,null,B.hR]),t.L)
+B.D5=A.b(s([B.el,null,B.el,null]),t.L)
+B.Cq=A.b(s([B.aX,null,null,B.bO]),t.L)
+B.Cr=A.b(s([B.aO,null,null,B.bP]),t.L)
+B.Cs=A.b(s([B.aP,null,null,B.bQ]),t.L)
+B.D7=A.b(s([B.aY,null,null,B.bR]),t.L)
+B.D_=A.b(s([B.hJ,null,null,B.hR]),t.L)
 B.Ci=A.b(s([B.d0,B.d0,B.eo,null]),t.L)
-B.CI=A.b(s([B.ab,null,null,B.bN]),t.L)
-B.Cu=A.b(s([B.bL,null,null,B.d4]),t.L)
+B.CH=A.b(s([B.ab,null,null,B.bN]),t.L)
+B.Ct=A.b(s([B.bL,null,null,B.d4]),t.L)
 B.Ce=A.b(s([B.ek,null,null,B.hP]),t.L)
-B.Cv=A.b(s([B.bM,null,null,B.d6]),t.L)
-B.D1=A.b(s([B.hK,null,null,B.hQ]),t.L)
+B.Cu=A.b(s([B.bM,null,null,B.d6]),t.L)
+B.D0=A.b(s([B.hK,null,null,B.hQ]),t.L)
 B.Cj=A.b(s([B.d3,B.d3,B.eq,null]),t.L)
-B.Cw=A.b(s([B.cZ,null,null,B.d5]),t.L)
-B.CL=A.b(s([B.d_,null,null,B.d7]),t.L)
+B.Cv=A.b(s([B.cZ,null,null,B.d5]),t.L)
+B.CK=A.b(s([B.d_,null,null,B.d7]),t.L)
 B.Ck=A.b(s([B.c9,B.c9,B.d1,null]),t.L)
-B.ES=new A.ci(["*",B.Cb,"+",B.CY,"-",B.Cq,".",B.CE,"/",B.BI,"0",B.D5,"1",B.D4,"2",B.Cg,"3",B.Da,"4",B.D3,"5",B.Cf,"6",B.BK,"7",B.Co,"8",B.CZ,"9",B.D_,"Alt",B.Ch,"AltGraph",B.D6,"ArrowDown",B.Cr,"ArrowLeft",B.Cs,"ArrowRight",B.Ct,"ArrowUp",B.D8,"Clear",B.D0,"Control",B.Ci,"Delete",B.CI,"End",B.Cu,"Enter",B.Ce,"Home",B.Cv,"Insert",B.D1,"Meta",B.Cj,"PageDown",B.Cw,"PageUp",B.CL,"Shift",B.Ck],A.a6("ci<A,O<e?>>"))
+B.ES=new A.ci(["*",B.Cb,"+",B.CX,"-",B.Cp,".",B.CD,"/",B.BI,"0",B.D4,"1",B.D3,"2",B.Cg,"3",B.D9,"4",B.D2,"5",B.Cf,"6",B.BK,"7",B.Cn,"8",B.CY,"9",B.CZ,"Alt",B.Ch,"AltGraph",B.D5,"ArrowDown",B.Cq,"ArrowLeft",B.Cr,"ArrowRight",B.Cs,"ArrowUp",B.D7,"Clear",B.D_,"Control",B.Ci,"Delete",B.CH,"End",B.Ct,"Enter",B.Ce,"Home",B.Cu,"Insert",B.D0,"Meta",B.Cj,"PageDown",B.Cv,"PageUp",B.CK,"Shift",B.Ck],A.a6("ci<A,O<e?>>"))
 B.Fm={KeyA:0,KeyB:1,KeyC:2,KeyD:3,KeyE:4,KeyF:5,KeyG:6,KeyH:7,KeyI:8,KeyJ:9,KeyK:10,KeyL:11,KeyM:12,KeyN:13,KeyO:14,KeyP:15,KeyQ:16,KeyR:17,KeyS:18,KeyT:19,KeyU:20,KeyV:21,KeyW:22,KeyX:23,KeyY:24,KeyZ:25,Digit1:26,Digit2:27,Digit3:28,Digit4:29,Digit5:30,Digit6:31,Digit7:32,Digit8:33,Digit9:34,Digit0:35,Minus:36,Equal:37,BracketLeft:38,BracketRight:39,Backslash:40,Semicolon:41,Quote:42,Backquote:43,Comma:44,Period:45,Slash:46}
 B.q4=new A.bo(B.Fm,["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0","-","=","[","]","\\",";","'","`",",",".","/"],t.hD)
 B.Fi={Abort:0,Again:1,AltLeft:2,AltRight:3,ArrowDown:4,ArrowLeft:5,ArrowRight:6,ArrowUp:7,AudioVolumeDown:8,AudioVolumeMute:9,AudioVolumeUp:10,Backquote:11,Backslash:12,Backspace:13,BracketLeft:14,BracketRight:15,BrightnessDown:16,BrightnessUp:17,BrowserBack:18,BrowserFavorites:19,BrowserForward:20,BrowserHome:21,BrowserRefresh:22,BrowserSearch:23,BrowserStop:24,CapsLock:25,Comma:26,ContextMenu:27,ControlLeft:28,ControlRight:29,Convert:30,Copy:31,Cut:32,Delete:33,Digit0:34,Digit1:35,Digit2:36,Digit3:37,Digit4:38,Digit5:39,Digit6:40,Digit7:41,Digit8:42,Digit9:43,DisplayToggleIntExt:44,Eject:45,End:46,Enter:47,Equal:48,Escape:49,Esc:50,F1:51,F10:52,F11:53,F12:54,F13:55,F14:56,F15:57,F16:58,F17:59,F18:60,F19:61,F2:62,F20:63,F21:64,F22:65,F23:66,F24:67,F3:68,F4:69,F5:70,F6:71,F7:72,F8:73,F9:74,Find:75,Fn:76,FnLock:77,GameButton1:78,GameButton10:79,GameButton11:80,GameButton12:81,GameButton13:82,GameButton14:83,GameButton15:84,GameButton16:85,GameButton2:86,GameButton3:87,GameButton4:88,GameButton5:89,GameButton6:90,GameButton7:91,GameButton8:92,GameButton9:93,GameButtonA:94,GameButtonB:95,GameButtonC:96,GameButtonLeft1:97,GameButtonLeft2:98,GameButtonMode:99,GameButtonRight1:100,GameButtonRight2:101,GameButtonSelect:102,GameButtonStart:103,GameButtonThumbLeft:104,GameButtonThumbRight:105,GameButtonX:106,GameButtonY:107,GameButtonZ:108,Help:109,Home:110,Hyper:111,Insert:112,IntlBackslash:113,IntlRo:114,IntlYen:115,KanaMode:116,KeyA:117,KeyB:118,KeyC:119,KeyD:120,KeyE:121,KeyF:122,KeyG:123,KeyH:124,KeyI:125,KeyJ:126,KeyK:127,KeyL:128,KeyM:129,KeyN:130,KeyO:131,KeyP:132,KeyQ:133,KeyR:134,KeyS:135,KeyT:136,KeyU:137,KeyV:138,KeyW:139,KeyX:140,KeyY:141,KeyZ:142,KeyboardLayoutSelect:143,Lang1:144,Lang2:145,Lang3:146,Lang4:147,Lang5:148,LaunchApp1:149,LaunchApp2:150,LaunchAssistant:151,LaunchControlPanel:152,LaunchMail:153,LaunchScreenSaver:154,MailForward:155,MailReply:156,MailSend:157,MediaFastForward:158,MediaPause:159,MediaPlay:160,MediaPlayPause:161,MediaRecord:162,MediaRewind:163,MediaSelect:164,MediaStop:165,MediaTrackNext:166,MediaTrackPrevious:167,MetaLeft:168,MetaRight:169,MicrophoneMuteToggle:170,Minus:171,NonConvert:172,NumLock:173,Numpad0:174,Numpad1:175,Numpad2:176,Numpad3:177,Numpad4:178,Numpad5:179,Numpad6:180,Numpad7:181,Numpad8:182,Numpad9:183,NumpadAdd:184,NumpadBackspace:185,NumpadClear:186,NumpadClearEntry:187,NumpadComma:188,NumpadDecimal:189,NumpadDivide:190,NumpadEnter:191,NumpadEqual:192,NumpadMemoryAdd:193,NumpadMemoryClear:194,NumpadMemoryRecall:195,NumpadMemoryStore:196,NumpadMemorySubtract:197,NumpadMultiply:198,NumpadParenLeft:199,NumpadParenRight:200,NumpadSubtract:201,Open:202,PageDown:203,PageUp:204,Paste:205,Pause:206,Period:207,Power:208,PrintScreen:209,PrivacyScreenToggle:210,Props:211,Quote:212,Resume:213,ScrollLock:214,Select:215,SelectTask:216,Semicolon:217,ShiftLeft:218,ShiftRight:219,ShowAllWindows:220,Slash:221,Sleep:222,Space:223,Super:224,Suspend:225,Tab:226,Turbo:227,Undo:228,WakeUp:229,ZoomToggle:230}
@@ -67534,165 +67534,165 @@ r($,"axQ","aW",()=>$.ahK())
 r($,"axp","a8Y",()=>B.xG)
 s($,"ay4","aka",()=>new A.WX())
 s($,"axP","ak3",()=>{var q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,e0,e1,e2,e3,e4,e5,e6,e7,e8,e9,f0,f1,f2,f3,f4,f5,f6,f7,f8,f9,g0,g1="Fibrinolytic therapy",g2="Unfractionated Heparin (UFH)",g3="Low-Molecular-Weight Heparin (LMWH)",g4="Anti-Factor Xa level",g5="Protamine Sulfate",g6="IVC filters should only be used when anticoagulants are contraindicated due to active bleeding.",g7="Insertion of an IVC filter",g8=t.s,g9=A.b(["Initiate fibrinolysis with tenecteplase","Schedule a stress test for tomorrow","Perform primary PCI as soon as possible","Start medical management with DAPT and plan for angiography in 72 hours"],g8),h0=A.a6("fm")
-g9=A.a9(A.M([B.u],h0),2,"This patient has STEMI. Primary PCI is the preferred reperfusion strategy if it can be performed within 90 minutes of first medical contact.",26,g9,"A 65-year-old male presents with sudden, severe crushing chest pain radiating to his left arm, associated with nausea and diaphoresis for 20 minutes. His ECG shows ST-segment elevation in leads V2-V4. What is the most appropriate immediate reperfusion strategy?")
+g9=A.a9(A.M([B.v],h0),2,"This patient has STEMI. Primary PCI is the preferred reperfusion strategy if it can be performed within 90 minutes of first medical contact.",26,g9,"A 65-year-old male presents with sudden, severe crushing chest pain radiating to his left arm, associated with nausea and diaphoresis for 20 minutes. His ECG shows ST-segment elevation in leads V2-V4. What is the most appropriate immediate reperfusion strategy?")
 q=A.b(["Unstable Angina (UA)","ST-elevation MI (STEMI)","Non-ST-elevation MI (NSTEMI)","Stable Angina"],g8)
-q=A.a9(A.M([B.u],h0),2,"She has ischemic symptoms, ST-depression on ECG, and elevated troponin, which confirms NSTEMI (a type of NSTE-ACS).",27,q,"A 58-year-old female with a history of diabetes presents with 30 minutes of epigastric discomfort and shortness of breath. Her ECG shows ST-segment depression in the inferior leads. Troponin is elevated. What is her most likely diagnosis?")
+q=A.a9(A.M([B.v],h0),2,"She has ischemic symptoms, ST-depression on ECG, and elevated troponin, which confirms NSTEMI (a type of NSTE-ACS).",27,q,"A 58-year-old female with a history of diabetes presents with 30 minutes of epigastric discomfort and shortness of breath. Her ECG shows ST-segment depression in the inferior leads. Troponin is elevated. What is her most likely diagnosis?")
 p=A.b(["Primary PCI","Fibrinolysis","DAPT with Aspirin and Clopidogrel","Unfractionated Heparin"],g8)
-p=A.a9(A.M([B.u],h0),1,"A recent ischemic stroke (within 3 months) is an absolute contraindication for fibrinolytic therapy due to the high risk of hemorrhagic transformation.",28,p,"A 70-year-old man with a history of ischemic stroke 2 months ago presents with symptoms suggestive of STEMI. Which of the following reperfusion therapies is absolutely contraindicated?")
+p=A.a9(A.M([B.v],h0),1,"A recent ischemic stroke (within 3 months) is an absolute contraindication for fibrinolytic therapy due to the high risk of hemorrhagic transformation.",28,p,"A 70-year-old man with a history of ischemic stroke 2 months ago presents with symptoms suggestive of STEMI. Which of the following reperfusion therapies is absolutely contraindicated?")
 o=A.b(["Discharge home with aspirin and follow-up in 1 week","Ischemia-guided strategy with stress testing","Early invasive approach with angiography within 24 hours",g1],g8)
-o=A.a9(A.M([B.u],h0),2,"For high-risk NSTE-ACS patients (e.g., with recurrent ischemia), an early invasive approach with angiography within 24 hours is recommended.",29,o,"A 45-year-old male is diagnosed with NSTEMI. He is at high risk with recurrent angina. Which management strategy is most appropriate?")
+o=A.a9(A.M([B.v],h0),2,"For high-risk NSTE-ACS patients (e.g., with recurrent ischemia), an early invasive approach with angiography within 24 hours is recommended.",29,o,"A 45-year-old male is diagnosed with NSTEMI. He is at high risk with recurrent angina. Which management strategy is most appropriate?")
 n=A.b(["Warfarin","Glycoprotein IIb/IIIa Inhibitor (GPI)","Fondaparinux","Streptokinase"],g8)
-n=A.a9(A.M([B.u],h0),1,"GPIs can be considered for patients with STEMI undergoing PCI who have not been pre-loaded with a P2Y12 inhibitor and are not being treated with bivalirudin.",30,n,"A patient with STEMI is about to receive primary PCI. He has not been pre-loaded with a P2Y12 inhibitor. Which additional antiplatelet agent might be considered during the procedure if he is not receiving bivalirudin?")
+n=A.a9(A.M([B.v],h0),1,"GPIs can be considered for patients with STEMI undergoing PCI who have not been pre-loaded with a P2Y12 inhibitor and are not being treated with bivalirudin.",30,n,"A patient with STEMI is about to receive primary PCI. He has not been pre-loaded with a P2Y12 inhibitor. Which additional antiplatelet agent might be considered during the procedure if he is not receiving bivalirudin?")
 m=A.b(["1 year","3 years","Lifelong","Discontinue now"],g8)
-m=A.a9(A.M([B.u],h0),2,"In patients with LV dysfunction (LVEF <40%), \u03b2-blocker therapy is typically lifelong.",31,m,"A 55-year-old man post-STEMI (treated with PCI) has an LVEF of 35%. For how long should he continue \u03b2-blocker therapy?")
+m=A.a9(A.M([B.v],h0),2,"In patients with LV dysfunction (LVEF <40%), \u03b2-blocker therapy is typically lifelong.",31,m,"A 55-year-old man post-STEMI (treated with PCI) has an LVEF of 35%. For how long should he continue \u03b2-blocker therapy?")
 l=A.b(["Immediate transfer for primary PCI","Ischemia-guided strategy with antiplatelet and anticoagulant therapy",g1,"No antiplatelet therapy needed"],g8)
-l=A.a9(A.M([B.u],h0),1,"For low-risk NSTE-ACS patients, an ischemia-guided strategy is employed, where antiplatelet and anticoagulant therapies are administered without immediate PCI.",32,l,"A patient with NSTE-ACS is determined to be at low risk. Which management strategy is most suitable?")
+l=A.a9(A.M([B.v],h0),1,"For low-risk NSTE-ACS patients, an ischemia-guided strategy is employed, where antiplatelet and anticoagulant therapies are administered without immediate PCI.",32,l,"A patient with NSTE-ACS is determined to be at low risk. Which management strategy is most suitable?")
 k=A.b(["Idiopathic Thrombocytopenic Purpura (ITP)","GPIIb/IIIa inhibitor-induced thrombocytopenia vs. Heparin-Induced Thrombocytopenia (HIT)","Disseminated Intravascular Coagulation (DIC)","Vitamin K deficiency"],g8)
-k=A.a9(A.M([B.u],h0),1,"Because GPIs are often given with heparin, it is important to differentiate GPI-induced thrombocytopenia from HIT, as the management differs significantly.",33,k,"A patient develops severe thrombocytopenia after receiving UFH and a GPI for NSTE-ACS. What is a crucial differential diagnosis?")
+k=A.a9(A.M([B.v],h0),1,"Because GPIs are often given with heparin, it is important to differentiate GPI-induced thrombocytopenia from HIT, as the management differs significantly.",33,k,"A patient develops severe thrombocytopenia after receiving UFH and a GPI for NSTE-ACS. What is a crucial differential diagnosis?")
 j=A.b(["Ticagrelor","Prasugrel","Clopidogrel","Dipyridamole"],g8)
-j=A.a9(A.M([B.u],h0),2,"Contraindications to aspirin include major GI intolerance. In these cases, clopidogrel should be used as an alternative.",34,j,"A patient with ACS and a major GI intolerance to aspirin is about to be treated. What is the best alternative antiplatelet agent?")
+j=A.a9(A.M([B.v],h0),2,"Contraindications to aspirin include major GI intolerance. In these cases, clopidogrel should be used as an alternative.",34,j,"A patient with ACS and a major GI intolerance to aspirin is about to be treated. What is the best alternative antiplatelet agent?")
 i=A.b(["Discontinue statin","Increase atorvastatin to 80 mg daily","Add Ezetimibe","Options B or C are reasonable"],g8)
-i=A.a9(A.M([B.u],h0),3,"High-intensity statin (atorvastatin 80 mg) is a goal. If LDL-C remains >70 mg/dL on maximally tolerated statin, non-statin agents like Ezetimibe can be added.",35,i,"A 60-year-old woman post-MI has an LDL-C of 95 mg/dL on atorvastatin 40 mg daily. What is the next appropriate step in lipid management?")
+i=A.a9(A.M([B.v],h0),3,"High-intensity statin (atorvastatin 80 mg) is a goal. If LDL-C remains >70 mg/dL on maximally tolerated statin, non-statin agents like Ezetimibe can be added.",35,i,"A 60-year-old woman post-MI has an LDL-C of 95 mg/dL on atorvastatin 40 mg daily. What is the next appropriate step in lipid management?")
 h=A.b(["A 45-year-old man with no history of stroke","A 50-year-old woman weighing 65 kg","A 75-year-old man with a history of TIA","A 60-year-old man undergoing primary PCI"],g8)
-h=A.a9(A.M([B.u],h0),2,"Prasugrel is contraindicated in patients with a history of transient ischemic attack (TIA) or stroke.",36,h,"Which patient with STEMI should NOT receive Prasugrel as part of DAPT?")
+h=A.a9(A.M([B.v],h0),2,"Prasugrel is contraindicated in patients with a history of transient ischemic attack (TIA) or stroke.",36,h,"Which patient with STEMI should NOT receive Prasugrel as part of DAPT?")
 g=A.b(["Prasugrel 60 mg","Ticagrelor 180 mg","Clopidogrel 300 mg","Cangrelor 30 mcg/kg bolus"],g8)
-g=A.a9(A.M([B.u],h0),2,"For patients receiving fibrinolytic therapy, the recommended loading dose for clopidogrel is 300 mg.",37,g,"A patient received fibrinolytic therapy for STEMI. Which P2Y12 inhibitor loading dose is appropriate?")
+g=A.a9(A.M([B.v],h0),2,"For patients receiving fibrinolytic therapy, the recommended loading dose for clopidogrel is 300 mg.",37,g,"A patient received fibrinolytic therapy for STEMI. Which P2Y12 inhibitor loading dose is appropriate?")
 f=A.b(["Nitroglycerin patch","ACE Inhibitor","Aldosterone Antagonist","Dihydropyridine CCB"],g8)
-f=A.a9(A.M([B.u],h0),1,"ACE inhibitors/ARBs are initiated within 48 hours, especially in patients with LV dysfunction or at high risk.",38,f,"Which medication should be initiated within 48 hours post-MI, especially in patients with LV dysfunction?")
+f=A.a9(A.M([B.v],h0),1,"ACE inhibitors/ARBs are initiated within 48 hours, especially in patients with LV dysfunction or at high risk.",38,f,"Which medication should be initiated within 48 hours post-MI, especially in patients with LV dysfunction?")
 e=A.b(["Discharge home","Perform coronary angiography","Repeat troponin in 6 hours","Start fibrinolytic therapy"],g8)
-e=A.a9(A.M([B.u],h0),1,"In an ischemia-guided strategy, if the patient has a positive stress test, the next step is typically coronary angiography and possible revascularization.",39,e,"A patient with NSTEMI is managed conservatively. His troponin levels normalize, and he has no further chest pain. A stress test is scheduled but he has a positive stress test. What is the next step?")
+e=A.a9(A.M([B.v],h0),1,"In an ischemia-guided strategy, if the patient has a positive stress test, the next step is typically coronary angiography and possible revascularization.",39,e,"A patient with NSTEMI is managed conservatively. His troponin levels normalize, and he has no further chest pain. A stress test is scheduled but he has a positive stress test. What is the next step?")
 d=A.b(["Stopping all medications to avoid side effects","Medication reconciliation and ensuring initiation of all appropriate therapies","Recommending a high-fat diet","Advising against any physical activity for 6 months"],g8)
-d=A.a9(A.M([B.u],h0),1,"Discharge planning includes medication reconciliation and ensuring the initiation of all appropriate evidence-based therapies (e.g., DAPT, statin, \u03b2-blocker, ACEI) to optimize long-term outcomes.",40,d,'What is a critical component of "discharge planning" for an ACS patient to ensure long-term success?')
+d=A.a9(A.M([B.v],h0),1,"Discharge planning includes medication reconciliation and ensuring the initiation of all appropriate evidence-based therapies (e.g., DAPT, statin, \u03b2-blocker, ACEI) to optimize long-term outcomes.",40,d,'What is a critical component of "discharge planning" for an ACS patient to ensure long-term success?')
 c=A.b(["Chronic hypertension","A sudden imbalance between myocardial oxygen supply and demand","Cardiac valve dysfunction","Cardiomyopathy"],g8)
-c=A.a9(A.M([B.u],h0),1,"ACS is caused by a sudden imbalance between myocardial oxygen demand and supply, leading to ischemia.",1,c,"What is the primary cause of Acute Coronary Syndrome (ACS)?")
+c=A.a9(A.M([B.v],h0),1,"ACS is caused by a sudden imbalance between myocardial oxygen demand and supply, leading to ischemia.",1,c,"What is the primary cause of Acute Coronary Syndrome (ACS)?")
 b=A.b(["Stable and Unstable Angina","ST-segment elevation MI (STEMI) and non-ST-segment elevation ACS (NSTE-ACS)","Anterior and Inferior MI","Prinzmetal and Silent Ischemia"],g8)
-b=A.a9(A.M([B.u],h0),1,"ACS is classified into two main types: ST-segment elevation myocardial infarction (STEMI) and non-ST-segment elevation ACS (NSTE-ACS), which includes NSTEMI and unstable angina.",2,b,"How is Acute Coronary Syndrome (ACS) classified based on ECG findings?")
+b=A.a9(A.M([B.v],h0),1,"ACS is classified into two main types: ST-segment elevation myocardial infarction (STEMI) and non-ST-segment elevation ACS (NSTE-ACS), which includes NSTEMI and unstable angina.",2,b,"How is Acute Coronary Syndrome (ACS) classified based on ECG findings?")
 a=A.b(["Thick fibrous cap","Small necrotic core","Thin fibrous cap and large necrotic core","Heavily calcified"],g8)
-a=A.a9(A.M([B.u],h0),2,"Vulnerable plaques typically have thin fibrous caps and large necrotic cores, making them prone to rupture.",3,a,"Which of the following is a key characteristic of a vulnerable atherosclerotic plaque?")
+a=A.a9(A.M([B.v],h0),2,"Vulnerable plaques typically have thin fibrous caps and large necrotic cores, making them prone to rupture.",3,a,"Which of the following is a key characteristic of a vulnerable atherosclerotic plaque?")
 a0=A.b(["Activation via GP VI receptors","Binding of fibrinogen to activated GP IIb/IIIa receptors","Release of thromboxane A2","Adhesion via von Willebrand factor"],g8)
-a0=A.a9(A.M([B.u],h0),1,"Platelet aggregation occurs via GP IIb/IIIa receptors forming bridges with fibrinogen.",4,a0,"What is the final common pathway for platelet aggregation?")
+a0=A.a9(A.M([B.v],h0),1,"Platelet aggregation occurs via GP IIb/IIIa receptors forming bridges with fibrinogen.",4,a0,"What is the final common pathway for platelet aggregation?")
 a1=A.b(["Creatine Kinase (CK)","Myoglobin","Troponin","C-reactive Protein (CRP)"],g8)
-a1=A.a9(A.M([B.u],h0),2,"Cardiac troponin levels are measured at presentation and repeated 3\u20136 hours later; elevated levels confirm myocardial injury.",5,a1,"Which biomarker is most specific for confirming myocardial injury in ACS?")
+a1=A.a9(A.M([B.v],h0),2,"Cardiac troponin levels are measured at presentation and repeated 3\u20136 hours later; elevated levels confirm myocardial injury.",5,a1,"Which biomarker is most specific for confirming myocardial injury in ACS?")
 a2=A.b(["Fibrinolysis","Primary Percutaneous Coronary Intervention (PCI)","Coronary Artery Bypass Graft (CABG)","Medical management only"],g8)
-a2=A.a9(A.M([B.u],h0),1,"Primary PCI is the preferred strategy, involving mechanical reperfusion within 90 minutes of first medical contact.",6,a2,"What is the preferred reperfusion strategy for a STEMI patient if it can be performed within 90 minutes of first medical contact?")
+a2=A.a9(A.M([B.v],h0),1,"Primary PCI is the preferred strategy, involving mechanical reperfusion within 90 minutes of first medical contact.",6,a2,"What is the preferred reperfusion strategy for a STEMI patient if it can be performed within 90 minutes of first medical contact?")
 a3=A.b(["As first-line treatment for all STEMI patients","When PCI cannot be performed within 120 minutes and no contraindications exist","Only in patients with contraindications to aspirin","For NSTEMI patients with elevated troponin"],g8)
-a3=A.a9(A.M([B.u],h0),1,"Fibrinolysis is indicated when PCI cannot be performed within 120 minutes and no contraindications exist.",7,a3,"When is fibrinolysis indicated in STEMI?")
+a3=A.a9(A.M([B.v],h0),1,"Fibrinolysis is indicated when PCI cannot be performed within 120 minutes and no contraindications exist.",7,a3,"When is fibrinolysis indicated in STEMI?")
 a4=A.b(["Age over 75 years","Prior hemorrhagic stroke","Diabetes mellitus","History of stable angina"],g8)
-a4=A.a9(A.M([B.u],h0),1,"Absolute contraindications for fibrinolysis include prior hemorrhagic stroke, recent ischemic stroke, intracranial neoplasm, active bleeding, aortic dissection, and recent significant trauma/surgery.",8,a4,"Which of the following is an absolute contraindication for fibrinolytic therapy?")
+a4=A.a9(A.M([B.v],h0),1,"Absolute contraindications for fibrinolysis include prior hemorrhagic stroke, recent ischemic stroke, intracranial neoplasm, active bleeding, aortic dissection, and recent significant trauma/surgery.",8,a4,"Which of the following is an absolute contraindication for fibrinolytic therapy?")
 a5=A.b(["81 mg","162-325 mg","500 mg","650 mg"],g8)
-a5=A.a9(A.M([B.u],h0),1,"Aspirin is recommended for all patients unless contraindicated, with an initial dose of 162\u2013325 mg chewed immediately.",9,a5,"What is the recommended initial loading dose of aspirin for a patient with suspected ACS?")
+a5=A.a9(A.M([B.v],h0),1,"Aspirin is recommended for all patients unless contraindicated, with an initial dose of 162\u2013325 mg chewed immediately.",9,a5,"What is the recommended initial loading dose of aspirin for a patient with suspected ACS?")
 a6=A.b(["All STEMI patients upon presentation","Patients with bradycardia","Patients with uncontrolled hypertension or refractory symptoms","Patients with asthma"],g8)
-a6=A.a9(A.M([B.u],h0),2,"Intravenous (IV) \u03b2-blockers are reserved for STEMI patients with uncontrolled hypertension or refractory symptoms.",10,a6,"In which patient population should intravenous (IV) \u03b2-blockers be reserved for in STEMI?")
+a6=A.a9(A.M([B.v],h0),2,"Intravenous (IV) \u03b2-blockers are reserved for STEMI patients with uncontrolled hypertension or refractory symptoms.",10,a6,"In which patient population should intravenous (IV) \u03b2-blockers be reserved for in STEMI?")
 a7=A.b(["As first-line anti-ischemic therapy for all patients","Only when \u03b2-blockers are contraindicated, intolerant, or ineffective, in the absence of LV dysfunction","In combination with \u03b2-blockers for all NSTE-ACS patients","Only for patients with heart failure"],g8)
-a7=A.a9(A.M([B.u],h0),1,"Non-dihydropyridine CCBs are recommended only when \u03b2-blockers are contraindicated, intolerant, or ineffective, and in the absence of LV dysfunction or conduction issues.",11,a7,"When are Calcium Channel Blockers (CCBs) recommended in ACS?")
+a7=A.a9(A.M([B.v],h0),1,"Non-dihydropyridine CCBs are recommended only when \u03b2-blockers are contraindicated, intolerant, or ineffective, and in the absence of LV dysfunction or conduction issues.",11,a7,"When are Calcium Channel Blockers (CCBs) recommended in ACS?")
 a8=A.b(["7 days","14 days","1 month","12 months"],g8)
-a8=A.a9(A.M([B.u],h0),1,"For patients with STEMI treated with fibrinolysis, the minimum recommended duration of DAPT is 14 days.",12,a8,"What is the minimum recommended duration of Dual Antiplatelet Therapy (DAPT) for a patient with STEMI treated with fibrinolysis?")
+a8=A.a9(A.M([B.v],h0),1,"For patients with STEMI treated with fibrinolysis, the minimum recommended duration of DAPT is 14 days.",12,a8,"What is the minimum recommended duration of Dual Antiplatelet Therapy (DAPT) for a patient with STEMI treated with fibrinolysis?")
 a9=A.b([g2,"Enoxaparin","Bivalirudin","Fondaparinux"],g8)
-a9=A.a9(A.M([B.u],h0),3,"Fondaparinux is not recommended for primary PCI in STEMI due to a higher catheter-related thrombosis risk.",13,a9,"Which anticoagulant is NOT recommended for primary PCI in STEMI due to a higher risk of catheter-related thrombosis?")
+a9=A.a9(A.M([B.v],h0),3,"Fondaparinux is not recommended for primary PCI in STEMI due to a higher catheter-related thrombosis risk.",13,a9,"Which anticoagulant is NOT recommended for primary PCI in STEMI due to a higher risk of catheter-related thrombosis?")
 b0=A.b(["Clopidogrel","Prasugrel","Ticagrelor","Cangrelor"],g8)
-b0=A.a9(A.M([B.u],h0),1,"Prasugrel maintenance dose is 10 mg daily, or 5 mg if the patient weighs <60 kg.",14,b0,"Which P2Y12 inhibitor requires a dose reduction to 5 mg daily for patients weighing less than 60 kg?")
+b0=A.a9(A.M([B.v],h0),1,"Prasugrel maintenance dose is 10 mg daily, or 5 mg if the patient weighs <60 kg.",14,b0,"Which P2Y12 inhibitor requires a dose reduction to 5 mg daily for patients weighing less than 60 kg?")
 b1=A.b(["Ischemia-guided strategy","Conservative management","Early invasive approach","Fibrinolytic strategy"],g8)
-b1=A.a9(A.M([B.u],h0),2,"An early invasive approach for NSTE-ACS involves performing diagnostic angiography within 24 hours, especially for intermediate to high-risk patients.",15,b1,"In the context of NSTE-ACS, which strategy involves performing diagnostic angiography within 24 hours?")
+b1=A.a9(A.M([B.v],h0),2,"An early invasive approach for NSTE-ACS involves performing diagnostic angiography within 24 hours, especially for intermediate to high-risk patients.",15,b1,"In the context of NSTE-ACS, which strategy involves performing diagnostic angiography within 24 hours?")
 b2=A.b(["Immediate relief of chest pain","Prevention of future cardiovascular events","Rapid transfer to the catheterization lab","Administration of a fibrinolytic agent"],g8)
-b2=A.a9(A.M([B.u],h0),1,"Long-term goals focus on controlling cardiovascular risk factors and preventing future cardiovascular events.",16,b2,"Which of the following is a long-term goal in the management of ACS?")
+b2=A.a9(A.M([B.v],h0),1,"Long-term goals focus on controlling cardiovascular risk factors and preventing future cardiovascular events.",16,b2,"Which of the following is a long-term goal in the management of ACS?")
 b3=A.b(["Hyperkalemia","Significant thrombocytopenia","Liver toxicity","Renal failure"],g8)
-b3=A.a9(A.M([B.u],h0),1,"Besides bleeding, GPIs cause significant thrombocytopenia in about 0.5% of patients.",17,b3,"What is a major risk associated with Glycoprotein IIb/IIIa Inhibitors (GPIs)?")
+b3=A.a9(A.M([B.v],h0),1,"Besides bleeding, GPIs cause significant thrombocytopenia in about 0.5% of patients.",17,b3,"What is a major risk associated with Glycoprotein IIb/IIIa Inhibitors (GPIs)?")
 b4=A.b(["1 month","6 months","At least 3 years","Lifelong, regardless of function"],g8)
-b4=A.a9(A.M([B.u],h0),2,"\u03b2-blockers should be initiated within 24 hours and continued for at least 3 years in those with normal left ventricular function.",18,b4,"For how long should \u03b2-blockers be continued in a post-ACS patient with normal left ventricular function?")
+b4=A.a9(A.M([B.v],h0),2,"\u03b2-blockers should be initiated within 24 hours and continued for at least 3 years in those with normal left ventricular function.",18,b4,"For how long should \u03b2-blockers be continued in a post-ACS patient with normal left ventricular function?")
 b5=A.b(["Chest pain radiating to the left arm","Sweating","Epigastric pain or indigestion","Shortness of breath"],g8)
-b5=A.a9(A.M([B.u],h0),2,"Atypical symptoms like epigastric pain or indigestion may occur in older adults, women, and those with diabetes or renal impairment.",19,b5,'Which symptom is considered an "atypical" presentation of ACS, commonly seen in older adults, women, and diabetics?')
+b5=A.a9(A.M([B.v],h0),2,"Atypical symptoms like epigastric pain or indigestion may occur in older adults, women, and those with diabetes or renal impairment.",19,b5,'Which symptom is considered an "atypical" presentation of ACS, commonly seen in older adults, women, and diabetics?')
 b6=A.b(["Atorvastatin 10 mg","Rosuvastatin 5 mg","Atorvastatin 80 mg or Rosuvastatin 20-40 mg","Simvastatin 40 mg"],g8)
-b6=A.a9(A.M([B.u],h0),2,"High-intensity statin therapy (e.g., atorvastatin 80 mg or rosuvastatin 20-40 mg) is recommended to be continued indefinitely.",20,b6,"What is the recommended high-intensity statin therapy for secondary prevention post-ACS?")
+b6=A.a9(A.M([B.v],h0),2,"High-intensity statin therapy (e.g., atorvastatin 80 mg or rosuvastatin 20-40 mg) is recommended to be continued indefinitely.",20,b6,"What is the recommended high-intensity statin therapy for secondary prevention post-ACS?")
 b7=A.b(["Bivalirudin","Fondaparinux",g3,"Warfarin"],g8)
-b7=A.a9(A.M([B.u],h0),2,"The incidence of HIT is lower with LMWH (<2%) than with UFH (2%~5%).",21,b7,"Which anticoagulant has a lower incidence of Heparin-Induced Thrombocytopenia (HIT) compared to Unfractionated Heparin (UFH)?")
+b7=A.a9(A.M([B.v],h0),2,"The incidence of HIT is lower with LMWH (<2%) than with UFH (2%~5%).",21,b7,"Which anticoagulant has a lower incidence of Heparin-Induced Thrombocytopenia (HIT) compared to Unfractionated Heparin (UFH)?")
 b8=A.b(["For all patients with chest pain","As first-line therapy alongside aspirin","Only in refractory cases","It is contraindicated in NSTE-ACS"],g8)
-b8=A.a9(A.M([B.u],h0),2,"Morphine may be used for pain relief in STEMI but is only recommended in refractory cases for NSTE-ACS.",22,b8,"When is morphine use recommended in NSTE-ACS?")
+b8=A.a9(A.M([B.v],h0),2,"Morphine may be used for pain relief in STEMI but is only recommended in refractory cases for NSTE-ACS.",22,b8,"When is morphine use recommended in NSTE-ACS?")
 b9=A.b(["Administer to all patients with chest pain","Reserved for patients with saturation below 90%","Used primarily to reduce anxiety","Contraindicated in STEMI"],g8)
-b9=A.a9(A.M([B.u],h0),1,"Oxygen therapy is reserved for patients with saturation below 90% due to potential adverse effects.",23,b9,"What is the role of oxygen therapy in ACS?")
+b9=A.a9(A.M([B.v],h0),1,"Oxygen therapy is reserved for patients with saturation below 90% due to potential adverse effects.",23,b9,"What is the role of oxygen therapy in ACS?")
 c0=A.b(["Sympathetic Nervous System (SNS) and Renin-Angiotensin-Aldosterone System (RAAS)","Parasympathetic Nervous System","Hypothalamic-Pituitary-Adrenal (HPA) axis","Thyroid axis"],g8)
-c0=A.a9(A.M([B.u],h0),0,"Chronic hyperactivation of the SNS and RAAS post-MI leads to ventricular remodeling, hypertrophy, and impaired contractility.",24,c0,"Which of the following systems is chronically hyperactivated post-MI, leading to ventricular remodeling?")
+c0=A.a9(A.M([B.v],h0),0,"Chronic hyperactivation of the SNS and RAAS post-MI leads to ventricular remodeling, hypertrophy, and impaired contractility.",24,c0,"Which of the following systems is chronically hyperactivated post-MI, leading to ventricular remodeling?")
 c1=A.b(["Chest X-ray","Echocardiogram","12-lead ECG","Cardiac MRI"],g8)
-c1=A.a9(A.M([B.u],h0),2,"An immediate 12-lead ECG should be obtained within 10 minutes to detect signs of acute ischemia.",25,c1,"What is a key diagnostic step that should be obtained within 10 minutes for a patient with suspected ACS?")
+c1=A.a9(A.M([B.v],h0),2,"An immediate 12-lead ECG should be obtained within 10 minutes to detect signs of acute ischemia.",25,c1,"What is a key diagnostic step that should be obtained within 10 minutes for a patient with suspected ACS?")
 c2=A.b(["Myocardial Infarction and Stroke","Deep Vein Thrombosis (DVT) and Pulmonary Embolism (PE)","Atherosclerosis and Aneurysm","Varicose Veins and Chronic Venous Insufficiency"],g8)
-c2=A.a9(A.M([B.v],h0),1,"VTE results from clot formation within the venous circulation and is manifested as deep vein thrombosis (DVT) and/or pulmonary embolism (PE).",1,c2,"What are the two primary clinical manifestations of Venous Thromboembolism (VTE)?")
+c2=A.a9(A.M([B.u],h0),1,"VTE results from clot formation within the venous circulation and is manifested as deep vein thrombosis (DVT) and/or pulmonary embolism (PE).",1,c2,"What are the two primary clinical manifestations of Venous Thromboembolism (VTE)?")
 c3=A.b(["Vascular Wall Injury","Hypercoagulability","Venous Stasis","Endothelial Dysfunction"],g8)
-c3=A.a9(A.M([B.v],h0),2,"The three primary determinants of VTE (Virchow's triad) are venous stasis (e.g., immobility), vascular wall injury (e.g., surgery), and hypercoagulability (e.g., thrombophilia).",2,c3,'Which component of Virchow\'s Triad is described by "immobility or paralysis"?')
+c3=A.a9(A.M([B.u],h0),2,"The three primary determinants of VTE (Virchow's triad) are venous stasis (e.g., immobility), vascular wall injury (e.g., surgery), and hypercoagulability (e.g., thrombophilia).",2,c3,'Which component of Virchow\'s Triad is described by "immobility or paralysis"?')
 c4=A.b(["Prompt diagnosis with D-dimer","Primary prophylaxis in at-risk patients","Routine use of IVC filters","Treatment with thrombolytics"],g8)
-c4=A.a9(A.M([B.v],h0),1,"The most effective way to reduce mortality and morbidity from VTE is to use primary prophylaxis in patients at risk for VTE, particularly during hospitalization.",3,c4,"What is the most effective way to reduce mortality and morbidity from VTE?")
+c4=A.a9(A.M([B.u],h0),1,"The most effective way to reduce mortality and morbidity from VTE is to use primary prophylaxis in patients at risk for VTE, particularly during hospitalization.",3,c4,"What is the most effective way to reduce mortality and morbidity from VTE?")
 c5=A.b(["Computed Tomography (CT) scan","Ventilation-Perfusion (V/Q) scan","Compression Ultrasonography","Pulmonary Angiography"],g8)
-c5=A.a9(A.M([B.v],h0),2,"Imaging studies like compression ultrasonography is typically used to diagnose a DVT.",4,c5,"Which diagnostic test is typically used to diagnose a Deep Vein Thrombosis (DVT)?")
+c5=A.a9(A.M([B.u],h0),2,"Imaging studies like compression ultrasonography is typically used to diagnose a DVT.",4,c5,"Which diagnostic test is typically used to diagnose a Deep Vein Thrombosis (DVT)?")
 c6=A.b([g2,"Enoxaparin (LMWH)","Fondaparinux","Warfarin"],g8)
-c6=A.a9(A.M([B.v],h0),2,"Fondaparinux is contraindicated if CrCl is <30 mL/min. UFH is often preferred in significant renal impairment.",5,c6,"For a patient with acute DVT and a creatinine clearance (CrCl) of 25 mL/min, which anticoagulant is CONTRAINDICATED?")
+c6=A.a9(A.M([B.u],h0),2,"Fondaparinux is contraindicated if CrCl is <30 mL/min. UFH is often preferred in significant renal impairment.",5,c6,"For a patient with acute DVT and a creatinine clearance (CrCl) of 25 mL/min, which anticoagulant is CONTRAINDICATED?")
 c7=A.b(["1 month","3 months","6 months","12 months"],g8)
-c7=A.a9(A.M([B.v],h0),1,"Anticoagulation therapy should be continued for a minimum of 3 months. Patients should receive 3 months of anticoagulation therapy after provoked VTE.",6,c7,"What is the minimum recommended duration of anticoagulation therapy for a provoked VTE?")
+c7=A.a9(A.M([B.u],h0),1,"Anticoagulation therapy should be continued for a minimum of 3 months. Patients should receive 3 months of anticoagulation therapy after provoked VTE.",6,c7,"What is the minimum recommended duration of anticoagulation therapy for a provoked VTE?")
 c8=A.b(["International Normalized Ratio (INR)","Activated Partial Thromboplastin Time (aPTT)",g4,"D-dimer"],g8)
-c8=A.a9(A.M([B.v],h0),1,"The activated partial thromboplastin time (aPTT) is generally recommended for monitoring UFH.",7,c8,"Which laboratory test is generally recommended for monitoring Unfractionated Heparin (UFH) therapy?")
+c8=A.a9(A.M([B.u],h0),1,"The activated partial thromboplastin time (aPTT) is generally recommended for monitoring UFH.",7,c8,"Which laboratory test is generally recommended for monitoring Unfractionated Heparin (UFH) therapy?")
 c9=A.b(["Vitamin K","Idarucizumab",g5,"Andexanet Alfa"],g8)
-c9=A.a9(A.M([B.v],h0),2,"If major bleeding occurs with UFH, discontinue it immediately and give IV protamine sulfate.",8,c9,"What is the specific antidote for reversing the anticoagulant effect of Unfractionated Heparin (UFH)?")
+c9=A.a9(A.M([B.u],h0),2,"If major bleeding occurs with UFH, discontinue it immediately and give IV protamine sulfate.",8,c9,"What is the specific antidote for reversing the anticoagulant effect of Unfractionated Heparin (UFH)?")
 d0=A.b(["Requires more frequent monitoring","Has a higher incidence of Heparin-Induced Thrombocytopenia (HIT)","Has a predictable anticoagulation dose response","Is exclusively administered intravenously"],g8)
-d0=A.a9(A.M([B.v],h0),2,"Advantages of LMWH over UFH include a predictable anticoagulation dose response, improved SC bioavailability, and less need for routine laboratory monitoring.",9,d0,"A major advantage of Low-Molecular-Weight Heparin (LMWH) over Unfractionated Heparin (UFH) is:")
+d0=A.a9(A.M([B.u],h0),2,"Advantages of LMWH over UFH include a predictable anticoagulation dose response, improved SC bioavailability, and less need for routine laboratory monitoring.",9,d0,"A major advantage of Low-Molecular-Weight Heparin (LMWH) over Unfractionated Heparin (UFH) is:")
 d1=A.b(["Elderly patients with hypertension","Patients with active cancer","Patients with a history of GI bleeding","Athletes"],g8)
-d1=A.a9(A.M([B.v],h0),1,"In patients with cancer, LMWHs are the preferred agents during long-term and extended treatment phases due to better safety or efficacy.",10,d1,"In which of the following patient populations are LMWHs the preferred agents for long-term VTE treatment?")
+d1=A.a9(A.M([B.u],h0),1,"In patients with cancer, LMWHs are the preferred agents during long-term and extended treatment phases due to better safety or efficacy.",10,d1,"In which of the following patient populations are LMWHs the preferred agents for long-term VTE treatment?")
 d2=A.b(["It causes hypertension","It is ineffective in preventing clots during pregnancy","Risk of teratogenicity and fetal bleeding","It increases the risk of pre-eclampsia"],g8)
-d2=A.a9(A.M([B.v],h0),2,"Warfarin is contraindicated during pregnancy due to risk of teratogenicity and fetal bleeding. LMWH does not cross the placenta and is preferred.",11,d2,"Why is warfarin contraindicated during pregnancy?")
+d2=A.a9(A.M([B.u],h0),2,"Warfarin is contraindicated during pregnancy due to risk of teratogenicity and fetal bleeding. LMWH does not cross the placenta and is preferred.",11,d2,"Why is warfarin contraindicated during pregnancy?")
 d3=A.b(["For 24 hours","For a minimum of 5 days and until the INR is \u22652 for 24 hours","Until the first dose of warfarin is administered","For 2 weeks"],g8)
-d3=A.a9(A.M([B.v],h0),1,"The parenteral agent (UFH, LMWH, fondaparinux) should be overlapped with warfarin for a minimum of 5 days and until the INR is greater than or equal to 2 for at least 24 hours.",12,d3,"When initiating warfarin for acute VTE, how long should it be overlapped with a rapid-acting parenteral anticoagulant?")
+d3=A.a9(A.M([B.u],h0),1,"The parenteral agent (UFH, LMWH, fondaparinux) should be overlapped with warfarin for a minimum of 5 days and until the INR is greater than or equal to 2 for at least 24 hours.",12,d3,"When initiating warfarin for acute VTE, how long should it be overlapped with a rapid-acting parenteral anticoagulant?")
 d4=A.b(["Rivaroxaban","Apixaban","Edoxaban","Dabigatran"],g8)
-d4=A.a9(A.M([B.v],h0),3,"Dabigatran is an oral selective, reversible, direct factor IIa (thrombin) inhibitor. The others (rivaroxaban, apixaban, edoxaban) are factor Xa inhibitors.",13,d4,"Which Target-Specific Oral Anticoagulant (TOAC) is a direct thrombin inhibitor?")
+d4=A.a9(A.M([B.u],h0),3,"Dabigatran is an oral selective, reversible, direct factor IIa (thrombin) inhibitor. The others (rivaroxaban, apixaban, edoxaban) are factor Xa inhibitors.",13,d4,"Which Target-Specific Oral Anticoagulant (TOAC) is a direct thrombin inhibitor?")
 d5=A.b(["Andexanet Alfa","Idarucizumab",g5,"Vitamin K"],g8)
-d5=A.a9(A.M([B.v],h0),1,"Idarucizumab (Praxbind) rapidly reverses the dabigatran anticoagulant effect.",14,d5,"What is the reversal agent for Dabigatran?")
+d5=A.a9(A.M([B.u],h0),1,"Idarucizumab (Praxbind) rapidly reverses the dabigatran anticoagulant effect.",14,d5,"What is the reversal agent for Dabigatran?")
 d6=A.b(["Osteoporosis","Alopecia","Hyperkalemia","Heparin-Induced Thrombocytopenia (HIT)"],g8)
-d6=A.a9(A.M([B.v],h0),3,"Heparin-Induced Thrombocytopenia (HIT) is a serious immune-mediated problem that requires immediate intervention: discontinue heparin and initiate alternative anticoagulation.",15,d6,"For which serious adverse effect must Heparin (UFH/LMWH) be immediately discontinued and an alternative anticoagulant initiated?")
+d6=A.a9(A.M([B.u],h0),3,"Heparin-Induced Thrombocytopenia (HIT) is a serious immune-mediated problem that requires immediate intervention: discontinue heparin and initiate alternative anticoagulation.",15,d6,"For which serious adverse effect must Heparin (UFH/LMWH) be immediately discontinued and an alternative anticoagulant initiated?")
 d7=A.b(["It requires routine aPTT monitoring","It inhibits both Factor Xa and Thrombin","It inhibits only Factor Xa activity","It is administered orally"],g8)
-d7=A.a9(A.M([B.v],h0),2,"Unlike UFH or LMWH, fondaparinux inhibits only factor Xa activity through its interaction with antithrombin.",16,d7,"Which of the following is a key characteristic of Fondaparinux?")
+d7=A.a9(A.M([B.u],h0),2,"Unlike UFH or LMWH, fondaparinux inhibits only factor Xa activity through its interaction with antithrombin.",16,d7,"Which of the following is a key characteristic of Fondaparinux?")
 d8=A.b(["For all patients with a first unprovoked DVT","For patients with massive PE and hemodynamic compromise","As prophylaxis following orthopedic surgery","For patients with a high bleeding risk"],g8)
-d8=A.a9(A.M([B.v],h0),1,"Patients with massive PE and evidence of hemodynamic compromise (hypotension or shock) should receive thrombolytic therapy unless contraindicated by bleeding risk.",17,d8,"When is thrombolytic therapy MOST indicated in VTE?")
+d8=A.a9(A.M([B.u],h0),1,"Patients with massive PE and evidence of hemodynamic compromise (hypotension or shock) should receive thrombolytic therapy unless contraindicated by bleeding risk.",17,d8,"When is thrombolytic therapy MOST indicated in VTE?")
 d9=A.b(["1.5 - 2.0","2.0 - 3.0 (Target 2.5)","2.5 - 3.5","3.0 - 4.0"],g8)
-d9=A.a9(A.M([B.v],h0),1,"In patients with DVT of the leg or PE who are treated with warfarin, a therapeutic INR range of 2-3 (target INR of 2.5) is recommended.",18,d9,"What is the target INR range for warfarin therapy in VTE treatment?")
+d9=A.a9(A.M([B.u],h0),1,"In patients with DVT of the leg or PE who are treated with warfarin, a therapeutic INR range of 2-3 (target INR of 2.5) is recommended.",18,d9,"What is the target INR range for warfarin therapy in VTE treatment?")
 e0=A.b(["Aspirin","Inferior Vena Cava (IVC) Filter","Graduated Compression Stockings (GCS)","Warfarin"],g8)
-e0=A.a9(A.M([B.v],h0),2,"Mechanical methods, including graduated compression stockings (GCS) and intermittent pneumatic compression (IPC) devices, prevent venous stasis.",19,e0,"Which mechanical method is used for VTE prophylaxis by preventing venous stasis?")
+e0=A.a9(A.M([B.u],h0),2,"Mechanical methods, including graduated compression stockings (GCS) and intermittent pneumatic compression (IPC) devices, prevent venous stasis.",19,e0,"Which mechanical method is used for VTE prophylaxis by preventing venous stasis?")
 e1=A.b(["Rapid depletion of Factor II","Inhibition of anticoagulant proteins C and S before clotting factors","Interaction with Vitamin K-rich foods","Induction of platelet aggregation"],g8)
-e1=A.a9(A.M([B.v],h0),1,"Warfarin reduces the concentration of natural anticoagulants (proteins C and S) before the clotting factors are depleted, which can lead to a transient hypercoagulable state.",20,e1,'The "paradoxical hypercoagulable state" during initial warfarin therapy is due to:')
+e1=A.a9(A.M([B.u],h0),1,"Warfarin reduces the concentration of natural anticoagulants (proteins C and S) before the clotting factors are depleted, which can lead to a transient hypercoagulable state.",20,e1,'The "paradoxical hypercoagulable state" during initial warfarin therapy is due to:')
 e2=A.b(["Elevated C-reactive protein","D-dimer value <500 ng/mL","INR > 3.0","Positive anti-nuclear antibody"],g8)
-e2=A.a9(A.M([B.v],h0),1,"Serum concentration of D-dimer is nearly always elevated in VTE; values <500 ng/mL (mcg/L) combined with clinical probability scores are useful in ruling out VTE.",21,e2,"Which laboratory value is most useful combined with clinical probability scores to rule out VTE?")
+e2=A.a9(A.M([B.u],h0),1,"Serum concentration of D-dimer is nearly always elevated in VTE; values <500 ng/mL (mcg/L) combined with clinical probability scores are useful in ruling out VTE.",21,e2,"Which laboratory value is most useful combined with clinical probability scores to rule out VTE?")
 e3=A.b(["Cancer","Thrombophilia","Estrogen use","Previous history of VTE"],g8)
-e3=A.a9(A.M([B.v],h0),2,"Certain risk factors are reversible (eg, estrogen use, recent orthopedic surgery, smoking, prolonged immobility) and may be eliminated over time.",22,e3,"Which of the following is a reversible risk factor for VTE?")
+e3=A.a9(A.M([B.u],h0),2,"Certain risk factors are reversible (eg, estrogen use, recent orthopedic surgery, smoking, prolonged immobility) and may be eliminated over time.",22,e3,"Which of the following is a reversible risk factor for VTE?")
 e4=A.b(["As first-line prophylaxis for all hospitalized patients","When anticoagulants are contraindicated due to active bleeding","To enhance the effect of warfarin","As a long-term replacement for DOACs"],g8)
-e4=A.a9(A.M([B.v],h0),1,g6,23,e4,"What is the primary reason for using an Inferior Vena Cava (IVC) filter?")
+e4=A.a9(A.M([B.u],h0),1,g6,23,e4,"What is the primary reason for using an Inferior Vena Cava (IVC) filter?")
 e5=A.b(["Dabigatran and Edoxaban","Rivaroxaban and Apixaban","Warfarin and Fondaparinux","Betrixaban and Lepirudin"],g8)
-e5=A.a9(A.M([B.v],h0),1,"Single-drug oral therapy with rivaroxaban or apixaban produces similar rates of recurrent VTE compared to traditional therapy. They are initiated with a higher dose and subsequently reduced.",24,e5,"Which TOACs can be used as single-drug therapy for VTE (i.e., do not require initial parenteral overlap)?")
+e5=A.a9(A.M([B.u],h0),1,"Single-drug oral therapy with rivaroxaban or apixaban produces similar rates of recurrent VTE compared to traditional therapy. They are initiated with a higher dose and subsequently reduced.",24,e5,"Which TOACs can be used as single-drug therapy for VTE (i.e., do not require initial parenteral overlap)?")
 e6=A.b(["Skin rash","Alopecia","Intracranial hemorrhage","Purple toe syndrome"],g8)
-e6=A.a9(A.M([B.v],h0),2,"Intracranial hemorrhage is the most serious complication of warfarin and often results in permanent disability and death.",25,e6,"What is the most serious complication of warfarin therapy?")
+e6=A.a9(A.M([B.u],h0),2,"Intracranial hemorrhage is the most serious complication of warfarin and often results in permanent disability and death.",25,e6,"What is the most serious complication of warfarin therapy?")
 e7=A.b(["No prophylaxis needed","Graduated compression stockings (GCS) only","Pharmacologic prophylaxis with LMWH, LDUH, or fondaparinux",g7],g8)
-e7=A.a9(A.M([B.v],h0),2,"Hospitalized and acutely ill medical patients at high VTE risk and low bleeding risk should receive pharmacologic prophylaxis with LDUH, LMWH, fondaparinux, or betrixaban.",26,e7,"A 72-year-old woman is admitted to the hospital for heart failure exacerbation. She has limited mobility. Her bleeding risk is low. What is the most appropriate VTE prophylaxis for her?")
+e7=A.a9(A.M([B.u],h0),2,"Hospitalized and acutely ill medical patients at high VTE risk and low bleeding risk should receive pharmacologic prophylaxis with LDUH, LMWH, fondaparinux, or betrixaban.",26,e7,"A 72-year-old woman is admitted to the hospital for heart failure exacerbation. She has limited mobility. Her bleeding risk is low. What is the most appropriate VTE prophylaxis for her?")
 e8=A.b(["Warfarin alone","IV UFH overlapped with warfarin","A DOAC like rivaroxaban or apixaban","Subcutaneous fondaparinux overlapped with warfarin"],g8)
-e8=A.a9(A.M([B.v],h0),2,"In patients with acute DVT or PE, a DOAC is suggested over warfarin therapy. Rivaroxaban and apixaban can be used as single-drug regimens.",27,e8,"A 45-year-old man presents with sudden onset shortness of breath, pleuritic chest pain, and tachycardia. A CT pulmonary angiogram confirms a pulmonary embolism (PE). His hemodynamics are stable. He has no renal impairment. Which anticoagulant regimen is most appropriate for initial treatment?")
+e8=A.a9(A.M([B.u],h0),2,"In patients with acute DVT or PE, a DOAC is suggested over warfarin therapy. Rivaroxaban and apixaban can be used as single-drug regimens.",27,e8,"A 45-year-old man presents with sudden onset shortness of breath, pleuritic chest pain, and tachycardia. A CT pulmonary angiogram confirms a pulmonary embolism (PE). His hemodynamics are stable. He has no renal impairment. Which anticoagulant regimen is most appropriate for initial treatment?")
 e9=A.b(["Warfarin","Dabigatran",g3,"Aspirin"],g8)
-e9=A.a9(A.M([B.v],h0),2,"In patients with cancer, LMWHs are the preferred agents during long-term and extended treatment phases due to better safety or efficacy compared to warfarin.",28,e9,"A 60-year-old patient with active cancer is diagnosed with a proximal DVT. What is the preferred long-term (first 3 months) anticoagulant for this patient?")
+e9=A.a9(A.M([B.u],h0),2,"In patients with cancer, LMWHs are the preferred agents during long-term and extended treatment phases due to better safety or efficacy compared to warfarin.",28,e9,"A 60-year-old patient with active cancer is diagnosed with a proximal DVT. What is the preferred long-term (first 3 months) anticoagulant for this patient?")
 f0=A.b(["Continue UFH and monitor platelets closely","Switch to an LMWH","Discontinue all heparin and start a non-heparin anticoagulant (e.g., argatroban)","Administer protamine sulfate"],g8)
-f0=A.a9(A.M([B.v],h0),2,"HIT is a serious immune-mediated problem that requires immediate intervention: Discontinue heparin and initiate alternative anticoagulation with a parenteral direct thrombin inhibitor (DTI).",29,f0,"A patient receiving intravenous Unfractionated Heparin (UFH) for a massive DVT develops a significant drop in platelet count on day 6 of therapy. HIT is suspected. What is the most critical next step?")
+f0=A.a9(A.M([B.u],h0),2,"HIT is a serious immune-mediated problem that requires immediate intervention: Discontinue heparin and initiate alternative anticoagulation with a parenteral direct thrombin inhibitor (DTI).",29,f0,"A patient receiving intravenous Unfractionated Heparin (UFH) for a massive DVT develops a significant drop in platelet count on day 6 of therapy. HIT is suspected. What is the most critical next step?")
 f1=A.b(["Warfarin","Rivaroxaban",g3,"Fondaparinux"],g8)
-f1=A.a9(A.M([B.v],h0),2,"LMWH does not cross the placenta and is the preferred agent in pregnancy. Warfarin is contraindicated due to teratogenicity.",30,f1,"A 28-year-old woman in her first trimester of pregnancy is diagnosed with an unprovoked DVT. Which anticoagulant is SAFEST to use during pregnancy?")
+f1=A.a9(A.M([B.u],h0),2,"LMWH does not cross the placenta and is the preferred agent in pregnancy. Warfarin is contraindicated due to teratogenicity.",30,f1,"A 28-year-old woman in her first trimester of pregnancy is diagnosed with an unprovoked DVT. Which anticoagulant is SAFEST to use during pregnancy?")
 f2=A.b([g5,"Idarucizumab","Andexanet Alfa","Vitamin K and Prothrombin Complex Concentrate (PCC)"],g8)
-f2=A.a9(A.M([B.v],h0),3,"For major bleeding with warfarin, Vitamin K reverses the long-term effect, but PCC provides immediate reversal by supplying functional clotting factors.",31,f2,"A patient with a mechanical heart valve on warfarin presents with a life-threatening GI bleed. INR is 8.0. What is the most appropriate reversal agent?")
+f2=A.a9(A.M([B.u],h0),3,"For major bleeding with warfarin, Vitamin K reverses the long-term effect, but PCC provides immediate reversal by supplying functional clotting factors.",31,f2,"A patient with a mechanical heart valve on warfarin presents with a life-threatening GI bleed. INR is 8.0. What is the most appropriate reversal agent?")
 f3=A.b(["Enoxaparin","Fondaparinux","Rivaroxaban","Intravenous Unfractionated Heparin (UFH)"],g8)
-f3=A.a9(A.M([B.v],h0),3,"UFH is preferred in patients with severe renal impairment (CrCl <30 mL/min) as it is not renally cleared. LMWH, fondaparinux, and most DOACs are contraindicated or require caution.",32,f3,"A 55-year-old man with CrCl of 15 mL/min is diagnosed with a PE. Which anticoagulant is MOST appropriate for initial treatment?")
+f3=A.a9(A.M([B.u],h0),3,"UFH is preferred in patients with severe renal impairment (CrCl <30 mL/min) as it is not renally cleared. LMWH, fondaparinux, and most DOACs are contraindicated or require caution.",32,f3,"A 55-year-old man with CrCl of 15 mL/min is diagnosed with a PE. Which anticoagulant is MOST appropriate for initial treatment?")
 f4=A.b([g7,"Thrombolytic therapy","Double the dose of LMWH","Switch from DOAC to warfarin"],g8)
-f4=A.a9(A.M([B.v],h0),1,"Thrombolytic therapy should be reserved for patients who present with extensive proximal (eg, ileofemoral) DVT within 14 days of symptom onset, have good functional status, and are at low risk of bleeding.",33,f4,"A patient presents with a large, limb-threatening ileofemoral DVT. Symptoms began 5 days ago. The patient has no major bleeding risk. What intervention might be considered beyond standard anticoagulation?")
+f4=A.a9(A.M([B.u],h0),1,"Thrombolytic therapy should be reserved for patients who present with extensive proximal (eg, ileofemoral) DVT within 14 days of symptom onset, have good functional status, and are at low risk of bleeding.",33,f4,"A patient presents with a large, limb-threatening ileofemoral DVT. Symptoms began 5 days ago. The patient has no major bleeding risk. What intervention might be considered beyond standard anticoagulation?")
 f5=A.b([g5,"Andexanet Alfa","Idarucizumab","Vitamin K"],g8)
-f5=A.a9(A.M([B.v],h0),2,"Idarucizumab (Praxbind) is the specific reversal agent for dabigatran.",34,f5,"A patient with atrial fibrillation on dabigatran presents to the ER after a car accident with significant internal bleeding. What is the specific reversal agent that should be administered?")
+f5=A.a9(A.M([B.u],h0),2,"Idarucizumab (Praxbind) is the specific reversal agent for dabigatran.",34,f5,"A patient with atrial fibrillation on dabigatran presents to the ER after a car accident with significant internal bleeding. What is the specific reversal agent that should be administered?")
 f6=A.b(["Discontinue anticoagulation immediately","Continue anticoagulation indefinitely","Switch to aspirin 81 mg daily","The decision involves weighing the long-term risk of recurrence vs. bleeding"],g8)
-f6=A.a9(A.M([B.v],h0),3,"For patients with unprovoked VTE, the long-term risks of anticoagulant use (bleeding) must be weighed against the risk of repeated thrombosis after completing a minimum of 3 months of therapy.",35,f6,"A patient with an unprovoked DVT completed 3 months of anticoagulation with apixaban. They have no ongoing risk factors and a low bleeding risk. What is the next step regarding anticoagulation?")
+f6=A.a9(A.M([B.u],h0),3,"For patients with unprovoked VTE, the long-term risks of anticoagulant use (bleeding) must be weighed against the risk of repeated thrombosis after completing a minimum of 3 months of therapy.",35,f6,"A patient with an unprovoked DVT completed 3 months of anticoagulation with apixaban. They have no ongoing risk factors and a low bleeding risk. What is the next step regarding anticoagulation?")
 f7=A.b(["A patient with a provoked DVT and low bleeding risk","A patient with a PE who is stable on rivaroxaban","A patient with a recent major trauma who develops a DVT but has active GI bleeding","A patient with unprovoked DVT who prefers an oral medication"],g8)
-f7=A.a9(A.M([B.v],h0),2,g6,36,f7,"Which patient is the best candidate for an Inferior Vena Cava (IVC) filter?")
+f7=A.a9(A.M([B.u],h0),2,g6,36,f7,"Which patient is the best candidate for an Inferior Vena Cava (IVC) filter?")
 f8=A.b(["Discontinue enoxaparin because warfarin has been started","Continue enoxaparin and warfarin until the INR is \u22652 for at least 24 hours","Increase the warfarin dose dramatically to achieve therapeutic INR faster","Switch to a DOAC immediately"],g8)
-f8=A.a9(A.M([B.v],h0),1,"The parenteral agent (e.g., enoxaparin) should be overlapped with warfarin for a minimum of 5 days and until the INR is greater than or equal to 2 for at least 24 hours.",37,f8,"A patient is started on warfarin for a DVT. On day 3, the INR is 1.4. The patient is still receiving therapeutic enoxaparin. What is the correct action?")
+f8=A.a9(A.M([B.u],h0),1,"The parenteral agent (e.g., enoxaparin) should be overlapped with warfarin for a minimum of 5 days and until the INR is greater than or equal to 2 for at least 24 hours.",37,f8,"A patient is started on warfarin for a DVT. On day 3, the INR is 1.4. The patient is still receiving therapeutic enoxaparin. What is the correct action?")
 f9=A.b(["Direct inhibition of thrombin","Direct inhibition of Factor Xa","Indirect inhibition of Factor Xa via Antithrombin","Inhibition of Vitamin K epoxide reductase"],g8)
-f9=A.a9(A.M([B.v],h0),2,"Fondaparinux prevents thrombus generation by indirectly inhibiting factor Xa activity through its interaction with antithrombin.",38,f9,"What is the primary mechanism of action of Fondaparinux?")
+f9=A.a9(A.M([B.u],h0),2,"Fondaparinux prevents thrombus generation by indirectly inhibiting factor Xa activity through its interaction with antithrombin.",38,f9,"What is the primary mechanism of action of Fondaparinux?")
 g0=A.b(["Idarucizumab",g5,"Andexanet Alfa","Vitamin K"],g8)
-g0=A.a9(A.M([B.v],h0),2,"Andexanet alfa is a reversal agent for factor Xa inhibitors like rivaroxaban and apixaban.",39,g0,"A patient on rivaroxaban for VTE treatment experiences a life-threatening intracranial hemorrhage. Which reversal agent is most appropriate?")
+g0=A.a9(A.M([B.u],h0),2,"Andexanet alfa is a reversal agent for factor Xa inhibitors like rivaroxaban and apixaban.",39,g0,"A patient on rivaroxaban for VTE treatment experiences a life-threatening intracranial hemorrhage. Which reversal agent is most appropriate?")
 g8=A.b(["aPTT","INR",g4,"D-dimer"],g8)
-return A.b([g9,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,e0,e1,e2,e3,e4,e5,e6,e7,e8,e9,f0,f1,f2,f3,f4,f5,f6,f7,f8,f9,g0,A.a9(A.M([B.v],h0),2,"Measuring anti\u2013factor Xa activity is the most widely used method to monitor LMWH and may be considered in patients who are morbidly obese, have renal impairment, or are pregnant.",40,g8,"Which laboratory test is most appropriate for monitoring a patient on therapeutic enoxaparin who is morbidly obese?")],A.a6("w<mV>"))})
+return A.b([g9,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,e0,e1,e2,e3,e4,e5,e6,e7,e8,e9,f0,f1,f2,f3,f4,f5,f6,f7,f8,f9,g0,A.a9(A.M([B.u],h0),2,"Measuring anti\u2013factor Xa activity is the most widely used method to monitor LMWH and may be considered in patients who are morbidly obese, have renal impairment, or are pregnant.",40,g8,"Which laboratory test is most appropriate for monitoring a patient on therapeutic enoxaparin who is morbidly obese?")],A.a6("w<mV>"))})
 s($,"axU","ak5",()=>{var q,p,o,n=t.s,m=A.b(["ALT (Alanin Transaminase)","AST (Aspartate Transaminase)","ALP (Alkaline Phosphatase)","Amylase"],n),l=A.a6("fs")
 m=A.Ag(A.M([B.jQ],l),0,"\u0625\u0646\u0632\u064a\u0645 ALT \u064a\u0639\u062a\u0628\u0631 \u0623\u0643\u062b\u0631 \u062a\u062d\u062f\u064a\u062f\u0627\u064b \u0644\u062a\u0644\u0641 \u0627\u0644\u0643\u0628\u062f \u0644\u0623\u0646\u0647 \u0645\u0648\u062c\u0648\u062f \u0628\u0634\u0643\u0644 \u0631\u0626\u064a\u0633\u064a \u0641\u064a \u0627\u0644\u0643\u0628\u062f\u060c \u0628\u064a\u0646\u0645\u0627 AST \u0645\u0648\u062c\u0648\u062f \u0641\u064a \u0639\u062f\u0629 \u0623\u0646\u0633\u062c\u0629 \u0623\u062e\u0631\u0649.",1,m,"\u0645\u0627 \u0647\u0648 \u0627\u0644\u0625\u0646\u0632\u064a\u0645 \u0627\u0644\u0630\u064a \u064a\u0639\u062a\u0628\u0631 \u0639\u0644\u0627\u0645\u0629 \u0645\u062d\u062f\u062f\u0629 \u0644\u062a\u0644\u0641 \u062e\u0644\u0627\u064a\u0627 \u0627\u0644\u0643\u0628\u062f\u061f")
 q=A.b(["50-70 mg/dL","70-100 mg/dL","100-125 mg/dL","126-140 mg/dL"],n)
