@@ -10,23 +10,23 @@
     "prefer_related_applications": false,
     "icons": [
         {
-            "src": "web/icons/logo192.png",
+            "src": "assests/logo.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "web/icons/logo512.png",
+            "src": "assests/logo.png",
             "sizes": "512x512",
             "type": "image/png"
         },
         {
-            "src": "web/icons/logo192.png",
+            "src": "assests/logo.png",
             "sizes": "192x192",
             "type": "image/png",
             "purpose": "maskable"
         },
         {
-            "src": "web/icons/logo512.png",
+            "src": "assests/logo.png",
             "sizes": "512x512",
             "type": "image/png",
             "purpose": "maskable"
