@@ -2029,6 +2029,7 @@ class MindMapScreen extends StatefulWidget {
 class _MindMapScreenState extends State<MindMapScreen> {
   final GlobalKey _repaintKey = GlobalKey();
   bool _isSaving = false;
+  final TransformationController _transformationController = TransformationController();
 
   @override
   void initState() {
@@ -2045,8 +2046,12 @@ class _MindMapScreenState extends State<MindMapScreen> {
     setState(() => _isSaving = true);
 
     try {
+      // wait a short moment to ensure repaint has completed
+      await Future.delayed(const Duration(milliseconds: 120));
       final RenderRepaintBoundary? boundary = _repaintKey.currentContext?.findRenderObject() as RenderRepaintBoundary?;
-      if (boundary == null) throw Exception('Could not capture widget');
+      if (boundary == null) {
+        throw Exception('Could not capture widget (boundary == null). Ensure the map is visible and try again.');
+      }
 
       final ui.Image image = await boundary.toImage(pixelRatio: 3.0);
       final ByteData? byteData = await image.toByteData(format: ui.ImageByteFormat.png);
@@ -2058,14 +2063,19 @@ class _MindMapScreenState extends State<MindMapScreen> {
 
       if (kIsWeb) {
         // Web download
-        _downloadPngWeb(pngBytes, fileName);
-        if (mounted) {
-          ScaffoldMessenger.of(context).showSnackBar(
-            SnackBar(
-              content: Text('Mind map downloaded: $fileName'),
-              duration: const Duration(seconds: 3),
-            ),
-          );
+        try {
+          _downloadPngWeb(pngBytes, fileName);
+          if (mounted) {
+            ScaffoldMessenger.of(context).showSnackBar(
+              SnackBar(content: Text('Mind map download started: $fileName')),
+            );
+          }
+        } catch (we) {
+          if (mounted) {
+            ScaffoldMessenger.of(context).showSnackBar(
+              SnackBar(content: Text('Error downloading mind map: $we')),
+            );
+          }
         }
       } else {
         // Mobile: Save to documents
@@ -2083,7 +2093,8 @@ class _MindMapScreenState extends State<MindMapScreen> {
           );
         }
       }
-    } catch (e) {
+    } catch (e, st) {
+      debugPrint('Save error: $e\n$st');
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(content: Text('Error saving mind map: $e')),
@@ -2096,30 +2107,16 @@ class _MindMapScreenState extends State<MindMapScreen> {
 
   void _downloadPngWeb(List<int> bytes, String fileName) {
     if (!kIsWeb) return;
-    // This code only runs on web
-    // ignore: avoid_web_libraries_in_flutter
-    final jsCode = '''
-      const bytes = ${bytes.toString()};
-      const blob = new Blob([new Uint8Array(bytes)], {type: 'image/png'});
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = '$fileName';
-      a.click();
-      URL.revokeObjectURL(url);
-    ''';
-    // For now, we'll use a simpler method via dart:html when available
     try {
-      // Try to use dart:html dynamically
-      _tryWebDownload(bytes, fileName);
+      // Use data URI approach (base64) and attempt to open it.
+      final base64Data = base64Encode(bytes);
+      final dataUri = 'data:image/png;base64,$base64Data';
+      // Attempt to open the data URI; browsers may download or open in new tab
+      launchUrl(Uri.parse(dataUri));
     } catch (e) {
       debugPrint('Web download error: $e');
+      throw e;
     }
-  }
-
-  void _tryWebDownload(List<int> bytes, String fileName) {
-    // Fallback: show user instruction
-    debugPrint('Unable to auto-download on web. File size: ${bytes.length} bytes');
   }
 
   @override
@@ -2211,31 +2208,28 @@ class _MindMapScreenState extends State<MindMapScreen> {
         ],
       ),
       backgroundColor: Colors.black,
-      body: SingleChildScrollView(
-        scrollDirection: Axis.horizontal,
-        child: SingleChildScrollView(
-          scrollDirection: Axis.vertical,
-          child: RepaintBoundary(
-            key: _repaintKey,
-            child: Container(
-              color: Colors.black,
-              child: SizedBox(
-                width: 3000,
-                height: 3000,
-                child: InteractiveViewer(
-                  constrained: false,
-                  boundaryMargin: const EdgeInsets.all(200),
-                  minScale: 0.1,
-                  maxScale: 10,
-                  child: GraphView(
-                    graph: graph,
-                    algorithm: BuchheimWalkerAlgorithm(builder, TreeEdgeRenderer(builder)),
-                    builder: (Node n) => nodeWidgets[n] ?? const SizedBox.shrink(),
-                    paint: Paint()
-                      ..color = Colors.amber
-                      ..strokeWidth = 2,
-                  ),
-                ),
+      body: RepaintBoundary(
+        key: _repaintKey,
+        child: Container(
+          color: Colors.black,
+          child: InteractiveViewer(
+            transformationController: _transformationController,
+            constrained: false,
+            boundaryMargin: const EdgeInsets.all(2000),
+            minScale: 0.02,
+            maxScale: 5.0,
+            panEnabled: true,
+            scaleEnabled: true,
+            child: SizedBox(
+              width: 2000,
+              height: 2000,
+              child: GraphView(
+                graph: graph,
+                algorithm: BuchheimWalkerAlgorithm(builder, TreeEdgeRenderer(builder)),
+                builder: (Node n) => nodeWidgets[n] ?? const SizedBox.shrink(),
+                paint: Paint()
+                  ..color = Colors.amber
+                  ..strokeWidth = 2,
               ),
             ),
           ),
